@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../public/Logos/creatordecklogo_CD_LOCKUP_ORANGE.svg";
+import Logo from "../../public/Logos/logoOrange.png";
 import Link from "next/link";
 import {
   NavigationMenu,

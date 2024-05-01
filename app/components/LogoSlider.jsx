@@ -3,12 +3,12 @@ import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
 import Image from "next/image";
 export const sliderImg = [
-  //   {
-  //     path: "/ClientLogos/2560px-Yves_Saint_Laurent_Logo.svg.png",
-  //   },
-  //   {
-  //     path: "/ClientLogos/57e1f21f7a9f9975eb85408f0a647c77.png",
-  //   },
+  {
+    path: "/ClientLogos/Yves_Saint_Laurent_white.png",
+  },
+  {
+    path: "/ClientLogos/57e1f21f7a9f9975eb85408f0a647c77.png",
+  },
   {
     path: "/ClientLogos/loreal-logo_white.png",
   },

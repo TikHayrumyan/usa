@@ -37,25 +37,25 @@ export default function OurServices() {
 
   return (
     <div className="container flex flex-col my-10">
-      <h1 className="uppercase font-bold text-[7rem] text-[#fe522d] w-[80%] ">
+      <h1 className="uppercase font-bold sm:text-[7rem] text-6xl text-[#fe522d] sm:w-[80%] relative mb-10">
         our services
       </h1>
-      <div className="flex flex-wrap w-full justify-between">
+      <div className="flex sm:flex-wrap flex-col sm:flex-row w-full justify-between">
         {services.map((item, index) => {
           return (
             <>
               <div
-                className="w-[40%] space-y-5 flex flex-col mb-10"
+                className="sm:w-[40%] space-y-5 flex flex-col mb-10"
                 key={index}
               >
                 <h2 className="font-semibold text-2xl text-white">
                   {item.title}
                 </h2>
-                <p className="font-normal text-lg text-white">
+                <p className="font-normal text-lg text-white sm:flex hidden">
                   {item.description}
                 </p>
                 <Link href={item.href}>
-                  <Button className="bg-[#fe522d]" size="lg">
+                  <Button className="bg-[#fe522d] sm:flex hidden" size="lg">
                     GET STARTED{">>"}
                   </Button>
                 </Link>
@@ -63,6 +63,11 @@ export default function OurServices() {
             </>
           );
         })}
+        <Link href={"/"} className="sm:hidden flex w-full">
+          <Button className="bg-[#fe522d] sm:hidden flex w-full">
+            GET STARTED{">>"}
+          </Button>
+        </Link>
       </div>
     </div>
   );

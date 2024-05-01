@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import localFont from "next/font/local";
+import Footer from "./components/Footer";
 
 const myFont = localFont({
   src: [
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={myFont.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

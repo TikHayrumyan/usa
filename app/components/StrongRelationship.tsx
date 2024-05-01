@@ -61,7 +61,7 @@ export default function StrongRelationship() {
   ];
   return (
     <div className="container flex flex-col space-y-10">
-      <h1 className="text-[#3f3f3f] uppercase font-bold text-[7rem] w-[80%]">
+      <h1 className="text-[#3f3f3f] uppercase font-bold sm:text-[7rem] text-5xl sm:w-[80%]">
         WE&apos;RE BUILD ON STRONG RELATIONSHIPS
       </h1>
       <div className="w-full flex flex-col">
@@ -83,16 +83,16 @@ export default function StrongRelationship() {
                 <div
                   key={id}
                   className={cn(
-                    id % 2 !== 1 ? "flex-row-reverse" : "flex",
-                    `w-full flex items-center justify-between`
+                    id % 2 !== 1 ? "sm:flex-row-reverse flex-col-reverse" : "flex sm:flex-row flex-col-reverse",
+                    `w-full flex  items-center justify-between`
                   )}
                 >
-                  <div className="flex flex-col w-[45%] space-y-7">
-                    <p className="font-semibold text-2xl">{description}</p>
-                    <p>{name}</p>
+                  <div className="flex flex-col sm:w-[45%] space-y-7">
+                    <p className="font-semibold sm:text-2xl sm:mt-0 mt-5">{description}</p>
+                    <p >{name}</p>
                   </div>
-                  <div className="flex relative w-[35%] justify-center">
-                    <Image alt="img" src={img} width={300} height={300} />
+                  <div className="flex relative sm:w-[35%] justify-center sm:mt-0 mt-5">
+                    <Image alt="img" src={img} width={300} height={300} className="sm:w-auto w-96"/>
                     <div className="absolute flex w-full h-[10vh] bg-[#fe522d] bottom-0 rounded-xl items-center justify-center">
                       <div className="flex w-[90%] items-center justify-between">
                         <div className="flex flex-col items-center justify-between">
