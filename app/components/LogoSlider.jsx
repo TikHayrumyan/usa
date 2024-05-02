@@ -6,9 +6,9 @@ export const sliderImg = [
   {
     path: "/ClientLogos/Yves_Saint_Laurent_white.png",
   },
-  {
-    path: "/ClientLogos/57e1f21f7a9f9975eb85408f0a647c77.png",
-  },
+  // {
+  //   path: "/ClientLogos/57e1f21f7a9f9975eb85408f0a647c77.png",
+  // },
   {
     path: "/ClientLogos/loreal-logo_white.png",
   },
@@ -72,7 +72,7 @@ export default function LogoSlider({ num }) {
   return (
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className={`glide-${num ? num : "09"} relative w-full`}>
+      <div className={`glide-${num ? num : "09"} relative w-full z-20`}>
         {/* <!-- Slides --> */}
         <div data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 items-center">
@@ -82,7 +82,7 @@ export default function LogoSlider({ num }) {
                   <li key={index}>
                     <Image
                       src={item.path}
-                      className="h-auto object-cover py-5"
+                      className="h-auto object-contain py-5"
                       width={150}
                       height={100}
                       alt="Logo"

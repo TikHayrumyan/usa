@@ -14,6 +14,7 @@ export default function AgencyEngineers() {
     visible: {
       y: 0,
       opacity: 1,
+      zIndex: 3,
       transition: {
         delay: 0.8,
         duration: 1,
@@ -25,6 +26,8 @@ export default function AgencyEngineers() {
     visible: {
       y: 0,
       opacity: 1,
+      zIndex: 2,
+
       transition: {
         delay: 0.6,
         duration: 1,
@@ -36,6 +39,7 @@ export default function AgencyEngineers() {
     visible: {
       y: 0,
       opacity: 1,
+      zIndex: 2,
       transition: {
         delay: 1,
         duration: 1,
@@ -44,10 +48,10 @@ export default function AgencyEngineers() {
   };
 
   return (
-    <div className="container flex flex-col sm:h-[110vh] mb-10">
+    <div className="container flex flex-col sm:h-[110vh] mb-10 relative z-10">
       <div className="sm:flex hidden relative w-full h-[85vh] justify-center items-center mt-10">
         <motion.div
-          className="absolute left-0 top-0 z-10 w-96 h-[90%]"
+          className="absolute left-0 top-0 z-10 w-80 h-[85%]"
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomPic}
@@ -56,7 +60,7 @@ export default function AgencyEngineers() {
             alt="img"
             src={LAROLLETTES_HOMPAGE}
             fill
-            className="absolute left-0 top-0 z-10"
+            className="absolute left-0 top-0 z-10 object-cover"
           />
         </motion.div>
 
@@ -64,14 +68,14 @@ export default function AgencyEngineers() {
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomText}
-          className="w-[60%]"
+          className="w-[70%]"
         >
-          <h1 className="relative z-20 font-bold text-8xl w-full text-center text-[#fe522d]">
+          <h1 className="relative z-20 font-bold text-[6.5rem] w-full text-center text-[#fe522d] italic">
             AN AGENCY THAT ENGINEERS INFLUENCE
           </h1>
         </motion.div>
         <motion.div
-          className="absolute right-0 bottom-0 z-10 w-96 h-[80%]"
+          className="absolute right-0 bottom-0 z-10 w-80 h-[70%]"
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomGif}
@@ -80,7 +84,7 @@ export default function AgencyEngineers() {
             alt="img"
             src={ICESKAKTER_UD}
             fill
-            className="absolute right-0 bottom-0 z-10 "
+            className="absolute right-0 bottom-0 z-10 object-cover"
           />
         </motion.div>
       </div>
@@ -90,34 +94,34 @@ export default function AgencyEngineers() {
           AN AGENCY
         </h2>
         <Image
-            alt="img"
-            src={LAROLLETTES_HOMPAGE}
-            width={200}
-            height={200}
-            className="flex w-72 mt-5"
-          />
-           <h2 className="relative z-20 font-bold text-6xl w-full text-center text-[#fe522d] mt-5">
+          alt="img"
+          src={LAROLLETTES_HOMPAGE}
+          width={200}
+          height={200}
+          className="flex w-72 mt-5 z-20 object-cover"
+        />
+        <h2 className="relative z-20 font-bold text-6xl w-full text-center text-[#fe522d] mt-5">
           THAT ENGINEERS INFLUENCE
         </h2>
         <Image
-            alt="img"
-            src={ICESKAKTER_UD}
-            width={200}
-            height={200}
-            className="flex w-72 mt-5"
-          />
+          alt="img"
+          src={ICESKAKTER_UD}
+          width={200}
+          height={200}
+          className="flex w-72 mt-5 z-20 object-cover"
+        />
       </div>
       <div className="flex flex-col w-full items-center justify-center h-auto mt-10 text-lg space-y-5">
-        <p className="sm:w-[60%] text-center font-normal text-white">
-          Over the past 10 years,we&apos;ve fueled the evolution of influencer
-          marketing,We understand how to construct campaigns that drive
-          results,identify industry opportunities,and build solutions that
+        <p className="sm:w-[65%] text-center font-normal text-white relative z-50 sm:text-2xl">
+          Over the past 10 years, we&apos;ve fueled the evolution of influencer
+          marketing. We understand how to construct campaigns that drive
+          results, identify industry opportunities and build solutions that
           propel success in the years ahead.
         </p>
         <Button
           variant="secondary"
           size="lg"
-          className="bg-[#fe522d] uppercase px-10 py-7 text-white hover:text-black"
+          className="bg-[#fe522d] uppercase sm:px-24 sm:py-8 sm:text-xl text-white hover:text-black relative z-20"
         >
           Check out our work {`>>`}
         </Button>

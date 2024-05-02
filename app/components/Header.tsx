@@ -44,7 +44,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-[#090000] h-[10vh] flex items-center">
+    <div className="bg-[#2a2a2a] h-[12vh] flex items-center">
       <div className="container flex justify-between items-center">
         <Link href="/">
           <Image
@@ -83,7 +83,7 @@ export default function Header() {
           </NavigationMenu>
         </div>
         <div className="sm:hidden flex items-center ">
-              <MobileMenu/>
+          <MobileMenu />
         </div>
       </div>
     </div>

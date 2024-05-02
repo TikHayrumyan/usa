@@ -36,9 +36,9 @@ export default function OurServices() {
   ];
 
   return (
-    <div className="container flex flex-col my-10">
-      <h1 className="uppercase font-bold sm:text-[7rem] text-6xl text-[#fe522d] sm:w-[80%] relative mb-10">
-        our services
+    <div className="container flex flex-col my-10 relative  z-10">
+      <h1 className="uppercase font-bold sm:text-[9rem] text-6xl text-[#fe522d] sm:w-[80%] relative sm:mb-16 mb-10">
+        our <span className="italic">services</span>
       </h1>
       <div className="flex sm:flex-wrap flex-col sm:flex-row w-full justify-between">
         {services.map((item, index) => {
@@ -48,14 +48,17 @@ export default function OurServices() {
                 className="sm:w-[40%] space-y-5 flex flex-col mb-10"
                 key={index}
               >
-                <h2 className="font-semibold text-2xl text-white">
+                <h2 className="font-semibold text-3xl text-white">
                   {item.title}
                 </h2>
-                <p className="font-normal text-lg text-white sm:flex hidden">
+                <p className="font-normal text-xl text-white sm:flex hidden ml-11">
                   {item.description}
                 </p>
                 <Link href={item.href}>
-                  <Button className="bg-[#fe522d] sm:flex hidden" size="lg">
+                  <Button
+                    className="bg-[#fe522d] sm:flex hidden ml-11 px-9"
+                    size="lg"
+                  >
                     GET STARTED{">>"}
                   </Button>
                 </Link>
@@ -63,7 +66,7 @@ export default function OurServices() {
             </>
           );
         })}
-        <Link href={"/"} className="sm:hidden flex w-full">
+        <Link href={"/"} className="sm:hidden flex w-full relative z-50">
           <Button className="bg-[#fe522d] sm:hidden flex w-full">
             GET STARTED{">>"}
           </Button>
