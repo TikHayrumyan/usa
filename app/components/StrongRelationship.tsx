@@ -107,10 +107,10 @@ export default function StrongRelationship() {
                     <div className="absolute flex w-full h-[10vh] bg-[#fe522d] bottom-0 rounded-xl items-center justify-center">
                       <div className="flex w-[90%] items-center justify-between">
                         <div className="flex flex-col items-center justify-between">
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-lg text-white">
                             {percentOne}
                           </span>
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-sm text-white">
                             {percentOneName}
                           </span>
                         </div>
@@ -119,10 +119,10 @@ export default function StrongRelationship() {
                           className="bg-white text-white h-12"
                         />
                         <div className="flex flex-col items-center justify-between">
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-lg text-white">
                             {percentTwo}
                           </span>
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-sm text-white">
                             {percentTwoName}
                           </span>
                         </div>
@@ -131,10 +131,10 @@ export default function StrongRelationship() {
                           className="bg-white text-white  h-12"
                         />
                         <div className="flex flex-col items-center justify-between">
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-lg text-white">
                             {percentTree}
                           </span>
-                          <span className="text-xl text-white">
+                          <span className="sm:text-xl text-sm text-white">
                             {percentTreeName}
                           </span>
                         </div>
