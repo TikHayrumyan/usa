@@ -20,23 +20,23 @@ export const Navlinks = [
   },
   {
     name: "Work",
-    href: "/work",
+    href: "/comingsoon",
   },
   {
     name: "About",
-    href: "/about",
+    href: "/comingsoon",
   },
   {
     name: "Services",
-    href: "/services",
+    href: "/comingsoon",
   },
   {
     name: "Resources",
-    href: "/resources",
+    href: "/comingsoon",
   },
   {
     name: "Login",
-    href: "/login",
+    href: "/comingsoon",
   },
 ];
 
