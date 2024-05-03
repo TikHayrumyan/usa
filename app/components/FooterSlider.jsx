@@ -44,7 +44,7 @@ export default function FooterSlider() {
         },
         640: {
           perView: 1,
-          gap: 36,
+          gap: 170,
         },
       },
     }).mount();
@@ -57,18 +57,20 @@ export default function FooterSlider() {
   return (
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className={`glide-19 relative w-full`}>
+      <div className={`glide-19 relative w-full `}>
         {/* <!-- Slides --> */}
         <div data-glide-el="track">
-          <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 items-center">
+          <ul className="ul whitespace-no-wrap sm:px-10   flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 items-center">
             {sliderData.map((item, index) => {
               return (
                 <>
-                  <li key={index} >
-                    <div className="flex items-center " >
-                      <span className=" text-sm sm:text-lg font-bold text-[#fe522d]">{item.heading}</span>
-                      <span className="sm:text-lg text-xs font-bold text-white flex w-auto items-center " style={{marginLeft:"0.5vw",marginRight:"1vw"}}>{item.Text}</span>
-                      <Image alt="logo" src={Logo} width={30} height={30} className="sm:w-auto w-4"/>
+                  <li key={index} className="sm:li " style={{width:"1100px!important"}}>
+                    <div className="flex items-center insideLiDiv" >
+                      <span className=" text-lg sm:text-3xl font-bold text-[#fe522d]">{item.heading}</span>
+                      
+                      <span className="sm:text-3xl  text-lg font-bold text-white flex w-auto items-center spanMobile" style={{marginLeft:"0.5vw",marginRight:"1vw"}}>{item.Text}</span>
+                      
+                      <Image alt="logo" src={Logo} width={30} height={30} className="sliderLogo"/>
                     </div>
                   </li>
                 </>

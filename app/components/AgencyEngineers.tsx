@@ -48,10 +48,10 @@ export default function AgencyEngineers() {
   };
 
   return (
-    <div className="container flex flex-col sm:h-[110vh] mb-10 relative z-10">
-      <div className="sm:flex hidden relative w-full h-[85vh] justify-center items-center mt-10">
+    <div className="container flex flex-col w-full sm:h-[130vh] sm:mb-10 mb-4 relative z-10">
+      <div className="sm:flex hidden relative w-full h-[90vh] justify-center items-center mt-10">
         <motion.div
-          className="absolute left-0 top-0 z-10 w-80 h-[85%]"
+          className="absolute left-0 top-0 z-10 w-[30rem] h-[85%]"
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomPic}
@@ -68,14 +68,15 @@ export default function AgencyEngineers() {
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomText}
-          className="w-[70%]"
+          className="w-[90%]"
         >
-          <h1 className="relative z-20 font-bold text-[6.5rem] w-full text-center text-[#fe522d] italic">
-            AN AGENCY THAT ENGINEERS INFLUENCE
+          <h1 className="relative z-20 font-bold text-[10vw] leading-[13rem]  w-full text-center text-[#fe522d] italic">
+            AN AGENCY
+            <br /> <span className="not-italic">THAT ENGINEERS</span> INFLUENCE
           </h1>
         </motion.div>
         <motion.div
-          className="absolute right-0 bottom-0 z-10 w-80 h-[70%]"
+          className="absolute right-0 bottom-10 z-10 w-[28rem] h-[60%]"
           initial="hidden"
           whileInView="visible"
           variants={slideFromBottomGif}
@@ -84,13 +85,13 @@ export default function AgencyEngineers() {
             alt="img"
             src={ICESKAKTER_UD}
             fill
-            className="absolute right-0 bottom-0 z-10 object-cover"
+            className="absolute right-0 z-10 object-cover"
           />
         </motion.div>
       </div>
       {/* mobile */}
       <div className="sm:hidden flex flex-col items-center mt-5">
-        <h2 className="relative z-20 font-bold text-6xl w-full text-center text-[#fe522d]">
+        <h2 className="relative z-20 font-bold text-7xl w-full italic text-center text-[#fe522d]">
           AN AGENCY
         </h2>
         <Image
@@ -98,30 +99,34 @@ export default function AgencyEngineers() {
           src={LAROLLETTES_HOMPAGE}
           width={200}
           height={200}
-          className="flex w-72 mt-5 z-20 object-cover"
+          className="flex w-[92%] h-80 mt-3 z-20 object-cover"
         />
-        <h2 className="relative z-20 font-bold text-6xl w-full text-center text-[#fe522d] mt-5">
-          THAT ENGINEERS INFLUENCE
+        <h2 className="relative z-20 font-bold text-[3.8rem] leading-[4rem] w-full text-center text-[#fe522d] mt-3">
+          THAT ENGINEERS
+          <br />
+          <span className="italic">INFLUENCE</span>
         </h2>
         <Image
           alt="img"
           src={ICESKAKTER_UD}
           width={200}
           height={200}
-          className="flex w-72 mt-5 z-20 object-cover"
+          className="flex w-[92%] h-80 mt-3 z-20 object-cover"
         />
       </div>
-      <div className="flex flex-col w-full items-center justify-center h-auto mt-10 text-lg space-y-5">
-        <p className="sm:w-[65%] text-center font-normal text-white relative z-50 sm:text-2xl">
+      <div className="flex flex-col w-full items-center justify-center h-auto mt-10 text-lg space-y-10">
+        <p className="sm:w-[70%] text-center text-lg font-normal leading-[1.2rem] w-full sm:leading-[3rem] text-white relative z-50 sm:text-4xl">
           Over the past 10 years, we&apos;ve fueled the evolution of influencer
-          marketing. We understand how to construct campaigns that drive
-          results, identify industry opportunities and build solutions that
-          propel success in the years ahead.
+          marketing.
+          <br />
+          We understand how to construct campaigns that drive results, identify
+          industry opportunities and build solutions that propel success in the
+          years ahead.
         </p>
         <Button
           variant="secondary"
           size="lg"
-          className="bg-[#fe522d] uppercase sm:px-24 sm:py-8 sm:text-xl text-white hover:text-black relative z-20"
+          className="bg-[#fe522d] rounded-2xl uppercase  py-14  text-2xl px-36 text-white hover:text-black relative z-20"
         >
           Check out our work {`>>`}
         </Button>

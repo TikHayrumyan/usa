@@ -3,7 +3,7 @@ import White_CD_HalftoneBackground from "../../public/patterns/backgroundPattern
 
 export default function ComingSoon() {
   return (
-    <div className="flex bg-[#2e2e2e] w-full sm:h-[88vh] h-[60vh]">
+    <div className="flex bg-[#2e2e2e] w-full sm:h-[80vh] h-[60vh]">
       <div className="container flex flex-col items-center justify-center relative">
         <Image
           src={White_CD_HalftoneBackground}

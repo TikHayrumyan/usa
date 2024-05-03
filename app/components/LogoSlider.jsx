@@ -58,8 +58,8 @@ export default function LogoSlider({ num }) {
           perView: 4,
         },
         640: {
-          perView: 2,
-          gap: 36,
+          perView: 6,
+          // gap: 36,
         },
       },
     }).mount();
@@ -79,10 +79,10 @@ export default function LogoSlider({ num }) {
             {sliderImg.map((item, index) => {
               return (
                 <>
-                  <li key={index}>
+                  <li key={index} className="logos">
                     <Image
                       src={item.path}
-                      className="h-auto object-contain py-5"
+                      className="h-auto object-contain py-5 "
                       width={150}
                       height={100}
                       alt="Logo"

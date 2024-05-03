@@ -20,7 +20,7 @@ export default function GetInTouch() {
   };
   return (
     <div
-      className="sm:w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat  "
+      className="sm:w-[100vw] sm:h-[100vh] h-[24vh] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat  "
       style={{ backgroundImage: `url(${getExample.src})` }}
     >
       <motion.div
@@ -28,13 +28,13 @@ export default function GetInTouch() {
         whileInView="visible"
         variants={slideFromBottomText}
       >
-        <h2 className="sm:text-[15rem] font-bold text-white sm:mb-20 mb-20 text-7xl">
+        <h2 className="sm:text-[22.5rem] font-bold text-white sm:mb-20 mb-0 text-[4.8rem]">
           GET IN TOUCH.
         </h2>
       </motion.div>
       <Link
         href="/"
-        className="sm:w-[20vw] w-[50%] flex items-center justify-center bg-transparent sm:h-[3vw] h-10 border border-white rounded-md text-white"
+        className="sm:w-[23vw] sm:text-2xl text-xs w-[35%] rounded-sm flex items-center justify-center bg-transparent sm:h-[4vw] h-6 border-2 sm:border-4 border-white sm:rounded-xl text-white"
       >
         INFO {">>"}
       </Link>

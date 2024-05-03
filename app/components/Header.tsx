@@ -44,15 +44,15 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-[#2a2a2a] h-[12vh] flex items-center">
+    <div className="bg-[#2a2a2a] sm:h-[20vh] h-[10vh] flex items-center">
       <div className="container flex justify-between items-center">
         <Link href="/">
           <Image
             alt="Logo"
             src={Logo}
-            width={1000}
-            height={1000}
-            className="sm:w-72 w-56 h-auto"
+            width={1500}
+            height={1500}
+            className="sm:w-[20rem] w-[35vw] h-auto"
           />
         </Link>
         <div className="hidden sm:flex  h-auto">
@@ -69,7 +69,7 @@ export default function Header() {
                             pathname === item.href
                               ? " text-white border-b-2 "
                               : " text-white ",
-                            "uppercase font-normal text-lg mx-1"
+                            "uppercase font-normal text-3xl mx-1"
                           )}
                         >
                           {item.name}
