@@ -28,7 +28,7 @@ export default function GetInTouch() {
         whileInView="visible"
         variants={slideFromBottomText}
       >
-        <h2 className="sm:text-[16.584vw] font-bold text-white sm:mb-[3.6842vw] mb-0 text-[4.8rem]">
+        <h2 className="sm:text-[16.584vw] font-bold text-white sm:mb-[3.6842vw] mb-0 text-[17vw]">
           GET IN TOUCH.
         </h2>
       </motion.div>

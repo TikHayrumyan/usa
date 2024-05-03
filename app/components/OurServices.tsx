@@ -43,7 +43,7 @@ export default function OurServices() {
 
   return (
     <div className="container flex flex-col sm:my-[4.428vw] my-6 relative  z-10">
-      <h1 className="uppercase font-bold sm:text-[9.584vw] text-7xl text-[#fe522d] sm:w-[80vw] relative sm:mb-[6.646vw] mb-10">
+      <h1 className="uppercase font-bold sm:text-[9.584vw] text-[16vw] text-[#fe522d] sm:w-[80vw] relative sm:mb-[6.646vw] mb-[3vw]">
         our <span className="italic">services</span>
       </h1>
       <div className="flex sm:flex-wrap flex-col sm:flex-row w-full justify-between">
@@ -51,14 +51,14 @@ export default function OurServices() {
           return (
             <>
               <div
-                className="sm:w-[39.1vw] sm:space-y-5 -space-y-16 flex flex-col mb-10 sm:mb-[1.844vw]"
+                className="sm:w-[39.1vw] sm:space-y-5 -space-y-[21vw] flex flex-col mb-10 sm:mb-[1.844vw]"
                 key={index}
               >
-                <div className="flex sm:items-start items-center space-x-1 mb-[1rem] sm:mb-[0.7384vw] sm:min-h-[120px]">
-                  <span className="font-semibold sm:text-6xl-custom text-2xl text-white">
+                <div className="flex sm:items-start items-center space-x-1 mb-[1rem] sm:mb-[0.7384vw] ">
+                  <span className="font-semibold sm:text-6xl-custom text-[5.2vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-semibold leading-[4rem] sm:text-6xl-custom text-2xl text-white ">
+                  <h2 className="font-semibold leading-[4rem] sm:text-6xl-custom text-[5.2vw]  text-white ">
                     {item.title}
                   </h2>
                 </div>

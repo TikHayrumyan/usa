@@ -71,7 +71,7 @@ export default function Home() {
       </div>
       {/* section 3 */}
       <div className="container flex flex-col space-y-10 sm:space-y-10-custom py-10 sm:py-[1.844vw] h-auto sm:mb-[2.5803vw] ">
-        <h1 className="uppercase font-bold sm:text-[9.211vw] text-[3.9rem] sm:leading-[9.584vw] leading-[3.8rem] text-[#2a2a2a] w-full sm:w-[80%]">
+        <h1 className="uppercase font-bold sm:text-[9.211vw] text-[14vw] sm:leading-[9.584vw] leading-[1] text-[#2a2a2a] w-full sm:w-[80%]">
           an influencer+ marketing agency
         </h1>
         <div className="flex sm:flex-row flex-col w-full items-start justify-between sm:h-[90vh]">

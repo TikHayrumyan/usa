@@ -112,7 +112,7 @@ export default function StrongRelationshipMobile() {
                       src={img}
                       width={600}
                       height={600}
-                      className="sm:w-[35rem] sm:h-[85vh] w-80 h-[95vw] object-cover self-start"
+                      className="w-[78vw] h-[95vw] object-cover self-start"
                     />
                     <div className="absolute flex w-[90%] h-[7vh] bg-[#fe522d] -bottom-10 rounded-xl items-center justify-evenly">
                       <div className="flex w-[80%] items-center justify-between">

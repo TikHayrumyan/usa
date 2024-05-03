@@ -46,6 +46,10 @@ export default function FooterSlider() {
           perView: 1,
           gap: 170,
         },
+        375: {
+          perView: 1,
+          gap: 250,
+        },
       },
     }).mount();
 
