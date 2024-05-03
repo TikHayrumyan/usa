@@ -52,7 +52,7 @@ export default function Header() {
             src={Logo}
             width={1500}
             height={1500}
-            className="sm:w-[20rem] w-[35vw] h-auto"
+            className="sm:w-[14.768vw] w-[35vw] h-auto"
           />
         </Link>
         <div className="hidden sm:flex  h-auto">
@@ -67,9 +67,9 @@ export default function Header() {
                           active={pathname === item.href}
                           className={cn(
                             pathname === item.href
-                              ? " text-white border-b-2 "
-                              : " text-white ",
-                            "uppercase font-normal text-3xl mx-1"
+                              ? " !text-white border-b-2 "
+                              : " !text-white",
+                            "uppercase  font-normal text-3xl-custom mx-[0.1847vw]"
                           )}
                         >
                           {item.name}

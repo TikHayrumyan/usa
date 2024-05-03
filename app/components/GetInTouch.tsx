@@ -28,13 +28,13 @@ export default function GetInTouch() {
         whileInView="visible"
         variants={slideFromBottomText}
       >
-        <h2 className="sm:text-[22.5rem] font-bold text-white sm:mb-20 mb-0 text-[4.8rem]">
+        <h2 className="sm:text-[16.584vw] font-bold text-white sm:mb-[3.6842vw] mb-0 text-[4.8rem]">
           GET IN TOUCH.
         </h2>
       </motion.div>
       <Link
         href="/"
-        className="sm:w-[23vw] sm:text-2xl text-xs w-[35%] rounded-sm flex items-center justify-center bg-transparent sm:h-[4vw] h-6 border-2 sm:border-4 border-white sm:rounded-xl text-white"
+        className="sm:w-[23vw] sm:text-2xl-custom text-xs w-[35%] rounded-sm flex items-center justify-center bg-transparent sm:h-[4vw] h-6 border-2 sm:border-4 border-white sm:rounded-xl text-white"
       >
         INFO {">>"}
       </Link>

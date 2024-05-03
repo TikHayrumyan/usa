@@ -61,8 +61,8 @@ export default function StrongRelationshipMobile() {
     // },
   ];
   return (
-    <div className="container flex flex-col sm:space-y-10 space-y-5">
-      <h1 className="text-[#2a2a2a] uppercase font-bold sm:text-[12.5rem] text-[4.3rem] leading-[4rem] sm:w-full">
+    <div className="container flex flex-col sm:space-y-1-custom0 space-y-5">
+      <h1 className="text-[#2a2a2a] uppercase font-bold sm:text-[12rem] text-[3.6rem] leading-[4rem] sm:w-full">
         WE&apos;RE BUILT ON STRONG RELATIONSHIPS
       </h1>
       <div className="w-full flex flex-col ">
@@ -90,21 +90,23 @@ export default function StrongRelationshipMobile() {
                     `w-full flex  items-center justify-between`
                   )}
                 >
-                  <div className={
-                    cn(
-                        id % 2 == 1 ? "text-start" : "text-end",
-                        "flex flex-col sm:w-[50%] space-y-7 pb-5"
-                    )
-                    }>
-                    <p className="font-semibold w-auto sm:text-6xl sm:mt-0 mt-16 text-[#2e2e2e] ">
+                  <div
+                    className={cn(
+                      id % 2 == 1 ? "text-start" : "text-end",
+                      "flex flex-col sm:w-[50%] space-y-7 pb-5"
+                    )}
+                  >
+                    <p className="font-semibold w-auto sm:text-6xl-custom sm:mt-0 mt-16 text-[#2e2e2e] ">
                       {description}
                     </p>
                     <p className="text-xl w-auto">{name}</p>
                   </div>
-                  <div className={cn(
-                    id % 2 == 1 ? "self-start" : "self-end",
-                    "flex relative sm:w-[40%] justify-center  sm:mt-0 mt-5"
-                  )}>
+                  <div
+                    className={cn(
+                      id % 2 == 1 ? "self-start" : "self-end",
+                      "flex relative sm:w-[40%] justify-center  sm:mt-0 mt-5"
+                    )}
+                  >
                     <Image
                       alt="img"
                       src={img}
@@ -115,10 +117,10 @@ export default function StrongRelationshipMobile() {
                     <div className="absolute flex w-[90%] h-[7vh] bg-[#fe522d] -bottom-10 rounded-xl items-center justify-evenly">
                       <div className="flex w-[80%] items-center justify-between">
                         <div className="flex flex-col items-center justify-between">
-                          <span className="sm:text-3xl font-bold text-3xl text-white">
+                          <span className="sm:text-3xl-custom font-bold text-3xl text-white">
                             {percentOne}
                           </span>
-                          <span className="sm:text-3xl  text-sm text-white">
+                          <span className="sm:text-3xl-custom  text-sm text-white">
                             {percentOneName}
                           </span>
                         </div>
@@ -130,7 +132,7 @@ export default function StrongRelationshipMobile() {
                           <span className="text-3xl font-bold  text-white">
                             {percentTwo}
                           </span>
-                          <span className="sm:text-3xl  text-sm text-white">
+                          <span className="sm:text-3xl-custom  text-sm text-white">
                             {percentTwoName}
                           </span>
                         </div>
@@ -139,10 +141,10 @@ export default function StrongRelationshipMobile() {
                           className="bg-white text-white  h-20"
                         />
                         <div className="flex flex-col items-center justify-between">
-                          <span className="sm:text-6xl sm:font-bold mb-2 text-white">
+                          <span className="sm:text-6xl-custom sm:font-bold mb-2 text-white">
                             {percentTree}
                           </span>
-                          <span className="sm:text-3xl  text-sm text-white">
+                          <span className="sm:text-3xl-custom  text-sm text-white">
                             {percentTreeName}
                           </span>
                         </div> */}

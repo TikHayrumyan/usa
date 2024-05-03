@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       {/* section 2 */}
       <div className="w-full overflow-x-hidden h-auto flex flex-col bg-[#2e2e2e] relative border-b-8 border-b-black ">
-        <div className="sm:my-5 ">
+        <div className="sm:my-[0.9217vw] ">
           <Image
             src={White_CD_HalftoneBackground}
             width={1500}
@@ -36,17 +36,17 @@ export default function Home() {
             alt="pattern"
             className="absolute top-0 left-0 bottom-0 object-cover opacity-10 h-full w-full z-0"
           />
-          <div className="sm:my-2">
+          <div className="sm:my-[0.3692vw]">
             <LogoSlider num="09" />
           </div>
           <AgencyEngineers />
-          <div className="sm:my-16">
+          <div className="sm:my-[2.951vw]">
             <LogoSlider num="08" />
           </div>
         </div>
-        <div className="w-full flex sm:items-center justify-between sm:my-10 my-5 sm:h-[30vh] h-auto container ">
-          <div className="flex flex-col sm:leading-[3rem] leading-5 sm:w-[60%] text-xl h-auto relative z-10 sm:pb-20">
-            <p className="sm:w-full w-[60%] text-white font-normal sm:text-[2.5rem] text-[0.8rem]">
+        <div className="w-full flex sm:items-center justify-between sm:my-[1.844vw] my-5 sm:h-[14.5vw] h-auto container ">
+          <div className="flex flex-col sm:leading-[2.2143vw] leading-5 sm:w-[60%] text-xl h-auto relative z-10 sm:pb-[3.6842vw]">
+            <p className="sm:w-full w-[60%] text-white font-normal sm:text-[1.844vw] text-[0.8rem]">
               Marketing+ influencer Agency,
               <span className="text-[#fe522d] font-bold">
                 {" "}
@@ -54,8 +54,8 @@ export default function Home() {
               </span>{" "}
               made the list!
             </p>
-            <p className="sm:w-full w-[60%] text-white font-normal sm:text-[2.5rem] text-[0.8rem]">
-              Inc. 5000,America&apos;s Fastest = Growing Private Company.
+            <p className="sm:w-full w-[60%] text-white font-normal sm:text-[1.844vw] text-[0.8rem]">
+              Inc. 5000, America&apos;s Fastest - Growing Private Company.
             </p>
           </div>
           <div className="absolute right-0 bottom-0 z-50">
@@ -70,43 +70,43 @@ export default function Home() {
         </div>
       </div>
       {/* section 3 */}
-      <div className="container flex flex-col space-y-10 py-10 h-auto sm:mb-14 ">
-        <h1 className="uppercase font-bold sm:text-[12.5rem] text-[3.9rem] sm:leading-[13rem] leading-[3.8rem] text-[#2a2a2a] w-full sm:w-[80%]">
+      <div className="container flex flex-col space-y-10 sm:space-y-10-custom py-10 sm:py-[1.844vw] h-auto sm:mb-[2.5803vw] ">
+        <h1 className="uppercase font-bold sm:text-[9.211vw] text-[3.9rem] sm:leading-[9.584vw] leading-[3.8rem] text-[#2a2a2a] w-full sm:w-[80%]">
           an influencer+ marketing agency
         </h1>
         <div className="flex sm:flex-row flex-col w-full items-start justify-between sm:h-[90vh]">
-          <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center justify-between sm:leading-[3rem] text-[#2e2e2e]">
-            <p className="w-full font-normal sm:text-[2.5rem]  text-[0.95rem] h-auto">
-              Reintroducing Creator Deck, an influencer+ marketing agency.With
-              10+ years of best-in-class expertise,we engineer influence for
+          <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center justify-between sm:leading-[2.2143vw] text-[#2e2e2e]">
+            <p className="w-full font-normal sm:text-[1.844vw]  text-[0.95rem] h-auto">
+              Reintroducing Creator Deck, an influencer+ marketing agency. With
+              10+ years of best-in-class expertise, we engineer influence for
               industry-leading brands.
             </p>
-            <p className="w-full font-normal sm:text-[2.5rem] text-[1rem] h-auto">
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] h-auto">
               Our 360 strategic programming - rooted in cultural
-              insights,powered by data - amplifies reach and sparks
+              insights, powered by data - amplifies reach and sparks
               conversation.
             </p>
-            <p className="w-full font-normal sm:text-[2.5rem] text-[1rem]">
-              Our intersectional,long tail approach to casting drives community
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
+              Our intersectional, long tail approach to casting drives community
               and secures bran affinity + trust among audiences.
             </p>
-            <p className="w-full font-normal sm:text-[2.5rem] text-[1rem]">
-              Through agility and smarter spending,we operate as an extension of
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
+              Through agility and smarter spending, we operate as an extension of
               our Clients with care and efficiency.
             </p>
-            <p className="w-full font-normal sm:text-[2.5rem] text-[1rem] sm:mb-0 mb-10">
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] sm:mb-0 mb-10">
               We call it{" "}
-              <span className="font-semibold sm:text-[2.5rem] text-[1rem] ">Influencer+</span>
+              <span className="font-semibold sm:text-[1.844vw] text-[1rem] ">Influencer+</span>
             </p>
             <Button
               variant="default"
-              className="uppercase bg-[#2e2e2e] sm:text-[1.65rem] rounded-2xl sm:w-[52.5%] sm:my-0 my-10 sm:py-14 sm:flex hidden"
+              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
             >
               check out our work {`>>`}
             </Button>
           </div>
           <Image
-            className="sm:w-[38.5rem] flex sm:h-full object-cover w-96 h-[65vw] sm:mt-0 mt-8"
+            className="sm:w-[28.424vw] flex sm:h-full object-cover w-96 h-[65vw] sm:mt-0 mt-8"
             alt="guitar"
             src={GUITAR_UD_HOMEPAGE}
             width={300}
@@ -121,7 +121,7 @@ export default function Home() {
         </div>
       </div>
       {/* section 4 */}
-      <div className="bg-[#2e2e2e] overflow-x-hidden py-5 sm:py-10 relative">
+      <div className="bg-[#2e2e2e] overflow-x-hidden py-5 sm:py-[1.844vw] relative">
         <Image
           src={White_CD_HalftoneBackground}
           width={1500}
@@ -134,7 +134,7 @@ export default function Home() {
         <LogoSlider num="07" />
       </div>
       {/* section 5 */}
-      <div className="sm:py-16 sm:block hidden">
+      <div className="sm:py-[2.951vw] sm:block hidden">
         <StrongRelationship />
       </div>
       <div className="sm:hidden block pt-5 pb-6">
@@ -145,7 +145,7 @@ export default function Home() {
         <GetInTouch />
       </div>
       {/* footer */}
-      <div className="bg-[#2e2e2e] overflow-x-hidden sm:py-1 pt-0 relative ">
+      <div className="bg-[#2e2e2e] overflow-x-hidden sm:py-[0.1847vw] pt-0 relative ">
         <FooterSlider />
       </div>
     </main>
