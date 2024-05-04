@@ -9,6 +9,8 @@ const myFont = localFont({
   src: [
     { path: "../public/Fonts/Anton-Regular.ttf", weight: "700" },
     { path: "../public/Fonts/Acumin.ttf", weight: "400" },
+    { path: "../public/Fonts/Acumin-BdPro.otf", weight: "600" },
+
   ],
 });
 
