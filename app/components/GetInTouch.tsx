@@ -20,7 +20,7 @@ export default function GetInTouch() {
   };
   return (
     <div
-      className="sm:w-[100vw] sm:h-[100vh] h-[24vh] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat  "
+      className="sm:w-[100vw] sm:h-[110vh] h-[24vh] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat  "
       style={{ backgroundImage: `url(${getExample.src})` }}
     >
       <motion.div

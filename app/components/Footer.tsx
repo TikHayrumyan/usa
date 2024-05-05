@@ -24,7 +24,7 @@ export default function Footer() {
             Subscribe
           </button>
         </div>
-        <div className="flex sm:space-x-5-custom space-x-3 items-center sm:border sm:max-w-[10vw] sm:justify-center justify-start sm:p-[1.472vw] pt-10 pb-6">
+        <div className="flex sm:space-x-5-custom space-x-3 items-center  sm:max-w-[10vw] sm:justify-center justify-start sm:p-[1.472vw] sm:ml-[-1.472vw] pt-10 pb-6">
           <Link href="/">
             <Image
               alt="socialIcons"

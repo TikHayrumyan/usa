@@ -13,7 +13,7 @@ import MainImg from "../public/imgs/Main.jpg";
 import StrongRelationshipMobile from "./components/StrongRelationshipMobile";
 export default function Home() {
   return (
-    <main className="flex flex-col ">
+    <main className="flex flex-col bg-[#F3F3F3]">
       <div className="sm:h-[80vh] w-full relative ">
         {/* <video className="w-full h-[90vh]" autoPlay loop muted>
           <source src="/videos/example.mp4" />
@@ -47,8 +47,8 @@ export default function Home() {
         <div className="w-full flex sm:items-center justify-between sm:my-[1.844vw] my-5 sm:h-[14.5vw] h-auto container ">
           <div className="flex flex-col sm:leading-[2.2143vw] leading-5 sm:w-[60%] text-xl h-auto relative z-10 sm:pb-[3.6842vw]">
             <p className="sm:w-full w-[60%] text-white font-normal sm:text-[1.844vw] text-[0.8rem]">
-              Marketing+ influencer Agency,
-              <span className="text-[#fe522d] font-bold">
+              Marketing+ Influencer Agency,
+              <span className="text-[#fe522d] font-[600]">
                 {" "}
                 Creater Deck,{" "}
               </span>{" "}
@@ -70,30 +70,31 @@ export default function Home() {
         </div>
       </div>
       {/* section 3 */}
-      <div className="container flex flex-col space-y-10 sm:space-y-10-custom py-10 sm:py-[1.844vw] h-auto sm:mb-[2.5803vw] ">
-        <h1 className="uppercase font-bold sm:text-[9.211vw] text-[14vw] sm:leading-[9.584vw] leading-[1] text-[#2a2a2a] w-full sm:w-[80%]">
-          an influencer+ marketing agency
+      <div className="container flex flex-col space-y-10 sm:space-y-10-custom py-10 sm:py-[1.844vw] h-auto sm:mb-[2.5803vw]">
+        <h1 className="uppercase font-bold sm:text-[9.211vw] text-[14vw] sm:leading-[9.2vw] sm:mt-[2.2vw] sm:mb-[2.2vw] leading-[1] text-[#2a2a2a] w-full sm:w-[80%]">
+          an Influencer+ marketing agency
         </h1>
         <div className="flex sm:flex-row flex-col w-full items-start justify-between sm:h-[90vh]">
           <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center justify-between sm:leading-[2.2143vw] text-[#2e2e2e]">
-            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[0.95rem] h-auto">
+            <p className="w-full font-normal sm:text-[1.844vw]  text-[0.95rem] h-auto">
               Reintroducing Creator Deck, an influencer+ marketing agency. With
               10+ years of best-in-class expertise, we engineer influence for
               industry-leading brands.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem] h-auto">
-              Our 360 strategic programming - rooted in cultural insights,
-              powered by data - amplifies reach and sparks conversation.
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] h-auto">
+              Our 360 strategic programming - rooted in cultural
+              insights, powered by data - amplifies reach and sparks
+              conversation.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem]">
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
               Our intersectional, long tail approach to casting drives community
               and secures bran affinity + trust among audiences.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem]">
-              Through agility and smarter spending, we operate as an extension
-              of our Clients with care and efficiency.
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
+              Through agility and smarter spending, we operate as an extension of
+              our Clients with care and efficiency.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] sm:mb-0 mb-10">
+            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] sm:pb-[3.5vw] sm:mb-0 mb-10">
               We call it{" "}
               <span className="font-semibold sm:text-[1.844vw] text-[1rem] ">
                 Influencer+
@@ -101,7 +102,7 @@ export default function Home() {
             </p>
             <Button
               variant="default"
-              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] sm:hover:bg-[#fe522d] rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
+              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
             >
               check out our work {`>>`}
             </Button>

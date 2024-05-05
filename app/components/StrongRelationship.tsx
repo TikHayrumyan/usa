@@ -10,7 +10,7 @@ export default function StrongRelationship() {
     {
       id: 1,
       description:
-        "Lorem ipsum dolor sit amet,consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- LUSA",
       img: Lusa,
       percentOne: "309,1%",
@@ -23,7 +23,7 @@ export default function StrongRelationship() {
     {
       id: 2,
       description:
-        "Lorem ipsum dolor sit amet,consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- SHEIN",
       img: Shein,
       percentOne: "35",
@@ -36,7 +36,7 @@ export default function StrongRelationship() {
     {
       id: 3,
       description:
-        "Lorem ipsum dolor sit amet,consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- REDKEN",
       img: REDKEN,
       percentOne: "76%",
@@ -49,7 +49,7 @@ export default function StrongRelationship() {
     {
       id: 4,
       description:
-        "Lorem ipsum dolor sit amet,consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- OPEN FARM",
       img: openFarm,
       percentOne: "35",
@@ -61,7 +61,7 @@ export default function StrongRelationship() {
     },
   ];
   return (
-    <div className="container flex flex-col space-y-10-custom">
+    <div className="container flex flex-col space-y-10-custom sm:pb-[5vw]">
       <h1 className="text-[#2a2a2a] uppercase font-bold sm:text-[9.211vw] leading-[1] sm:w-full">
         WE&apos;RE BUILT ON STRONG RELATIONSHIPS
       </h1>
