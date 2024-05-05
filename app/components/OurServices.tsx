@@ -54,11 +54,11 @@ export default function OurServices() {
                 className="sm:w-[39.1vw] sm:space-y-5 -space-y-[21vw] flex flex-col mb-[10vw] sm:mb-[1.844vw]"
                 key={index}
               >
-                <div className="flex sm:items-start items-center sm:space-x-1 sm:mb-[0.7384vw] ">
-                  <span className="font-semibold sm:text-6xl-custom text-[5vw]  text-white">
+                <div className="flex sm:items-start items-center  sm:space-x-1 sm:mb-[0.7384vw] ">
+                  <span className="font-semibold sm:text-6xl-custom text-[4vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-semibold leading-[10vw] sm:text-6xl-custom text-[5vw]  text-white ">
+                  <h2 className="font-semibold sm:text-6xl-custom text-[4vw] text-white ">
                     {item.title}
                   </h2>
                 </div>
