@@ -90,6 +90,7 @@
   .text-3xl-custom {
     @apply text-[1.3825vw] leading-[1.6614vw]
   }
+
   .text-6xl-custom {
     @apply text-[2.769vw] leading-[1]
   }
@@ -116,21 +117,35 @@
         * var(--tw-space-y-reverse));
   }
 
-  .sm\:space-y-5-custom > :not([hidden]) ~ :not([hidden]) {
+  .sm\:space-y-5-custom> :not([hidden])~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(0.9217vw/* 20px */ * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.9217vw/* 20px */ * var(--tw-space-y-reverse));
-}
-.space-y-10-custom > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.844vw/* 40px */ * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.844vw/* 40px */ * var(--tw-space-y-reverse));
-}
-.space-y-7-custom > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.2917vw/* 28px */ * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.2917vw/* 28px */ * var(--tw-space-y-reverse));
-}
+    margin-top: calc(0.9217vw
+        /* 20px */
+        * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.9217vw
+        /* 20px */
+        * var(--tw-space-y-reverse));
+  }
+
+  .space-y-10-custom> :not([hidden])~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.844vw
+        /* 40px */
+        * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.844vw
+        /* 40px */
+        * var(--tw-space-y-reverse));
+  }
+
+  .space-y-7-custom> :not([hidden])~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.2917vw
+        /* 28px */
+        * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.2917vw
+        /* 28px */
+        * var(--tw-space-y-reverse));
+  }
 }
 
 
@@ -163,8 +178,14 @@
     margin-top: 30px; */
   }
 
-  .insideLiDiv {
-    /* width: auto!important; */
+  .marqueeDiv {
+    margin-right: 1vw;
+    /* margin-left: 2vw; */
+  }
+
+  .marquee {
+    height: 40px !important;
+    
   }
 }
 
@@ -179,4 +200,13 @@
     padding-right: 10px;
     margin-top: 30px;
   }
+}
+
+.marqueeDiv {
+  margin-right: 1.5vw;
+  /* margin-left: 2vw; */
+}
+
+.marquee {
+  height: 6vw;
 }

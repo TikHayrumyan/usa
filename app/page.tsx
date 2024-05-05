@@ -76,31 +76,32 @@ export default function Home() {
         </h1>
         <div className="flex sm:flex-row flex-col w-full items-start justify-between sm:h-[90vh]">
           <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center justify-between sm:leading-[2.2143vw] text-[#2e2e2e]">
-            <p className="w-full font-normal sm:text-[1.844vw]  text-[0.95rem] h-auto">
+            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[0.95rem] h-auto">
               Reintroducing Creator Deck, an influencer+ marketing agency. With
               10+ years of best-in-class expertise, we engineer influence for
               industry-leading brands.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] h-auto">
-              Our 360 strategic programming - rooted in cultural
-              insights, powered by data - amplifies reach and sparks
-              conversation.
+            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem] h-auto">
+              Our 360 strategic programming - rooted in cultural insights,
+              powered by data - amplifies reach and sparks conversation.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
+            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem]">
               Our intersectional, long tail approach to casting drives community
               and secures bran affinity + trust among audiences.
             </p>
-            <p className="w-full font-normal sm:text-[1.844vw] text-[1rem]">
-              Through agility and smarter spending, we operate as an extension of
-              our Clients with care and efficiency.
+            <p className="w-full font-normal sm:text-[1.844vw] not-italic text-[1rem]">
+              Through agility and smarter spending, we operate as an extension
+              of our Clients with care and efficiency.
             </p>
             <p className="w-full font-normal sm:text-[1.844vw] text-[1rem] sm:mb-0 mb-10">
               We call it{" "}
-              <span className="font-semibold sm:text-[1.844vw] text-[1rem] ">Influencer+</span>
+              <span className="font-semibold sm:text-[1.844vw] text-[1rem] ">
+                Influencer+
+              </span>
             </p>
             <Button
               variant="default"
-              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
+              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] sm:hover:bg-[#fe522d] rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
             >
               check out our work {`>>`}
             </Button>
@@ -138,14 +139,14 @@ export default function Home() {
         <StrongRelationship />
       </div>
       <div className="sm:hidden block pt-5 pb-6">
-      <StrongRelationshipMobile/>
+        <StrongRelationshipMobile />
       </div>
       {/* section 6 */}
       <div className="overflow-x-hidden ">
         <GetInTouch />
       </div>
       {/* footer */}
-      <div className="bg-[#2e2e2e] overflow-x-hidden sm:py-[0.1847vw] pt-0 relative ">
+      <div className="bg-[#2e2e2e] overflow-x-hidden sm:h-auto  pt-0 relative ">
         <FooterSlider />
       </div>
     </main>

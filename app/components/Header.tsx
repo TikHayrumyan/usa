@@ -20,29 +20,31 @@ export const Navlinks = [
   },
   {
     name: "Work",
-    href: "/comingsoon",
+    href: "/comingsoon/work",
   },
   {
     name: "About",
-    href: "/comingsoon",
+    href: "/comingsoon/about",
   },
   {
     name: "Services",
-    href: "/comingsoon",
+    href: "/comingsoon/services",
   },
   {
     name: "Resources",
-    href: "/comingsoon",
+    href: "/comingsoon/resources",
   },
   {
     name: "Login",
-    href: "/comingsoon",
+    href: "/comingsoon/login",
   },
 ];
 
 export default function Header() {
   const pathname = usePathname();
-
+  console.log("====================================");
+  console.log(pathname);
+  console.log("====================================");
   return (
     <div className="bg-[#2a2a2a] sm:h-[20vh] h-[10vh] flex items-center">
       <div className="container flex justify-between items-center">

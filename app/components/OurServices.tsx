@@ -51,23 +51,23 @@ export default function OurServices() {
           return (
             <>
               <div
-                className="sm:w-[39.1vw] sm:space-y-5 -space-y-[21vw] flex flex-col mb-10 sm:mb-[1.844vw]"
+                className="sm:w-[39.1vw] sm:space-y-5 -space-y-[21vw] flex flex-col mb-[10vw] sm:mb-[1.844vw]"
                 key={index}
               >
-                <div className="flex sm:items-start items-center space-x-1 mb-[1rem] sm:mb-[0.7384vw] ">
-                  <span className="font-semibold sm:text-6xl-custom text-[5.2vw]  text-white">
+                <div className="flex sm:items-start items-center sm:space-x-1 sm:mb-[0.7384vw] ">
+                  <span className="font-semibold sm:text-6xl-custom text-[5vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-semibold leading-[4rem] sm:text-6xl-custom text-[5.2vw]  text-white ">
+                  <h2 className="font-semibold leading-[10vw] sm:text-6xl-custom text-[5vw]  text-white ">
                     {item.title}
                   </h2>
                 </div>
-                <p className="font-normal sm:text-4xl-custom sm:leading-[2.5vw]  leading-[3.5rem] text-white sm:flex hidden ml-[4.9rem] sm:ml-[3.615vw]">
+                <p className="font-normal sm:text-4xl-custom sm:leading-[2.5vw]  text-white sm:flex hidden  sm:ml-[3.615vw]">
                   {item.description}
                 </p>
                 <Link href={item.href}>
                   <Button
-                    className="bg-[#fe522d] sm:flex hidden sm:mt-[0.5905vw] mb-[4vw]  ml-[5rem] sm:ml-[3.6842vw] px-16 sm:px-[2.951vw] py-8 sm:py-[1.472vw] rounded-lg sm:text-2xl-custom"
+                    className="bg-[#fe522d] sm:hover:bg-[#fe522d] sm:hover:text-white sm:flex hidden sm:mt-[0.5905vw] mb-[4vw]  ml-[5rem] sm:ml-[3.6842vw] px-16 sm:px-[2.951vw] py-8 sm:py-[1.472vw] rounded-lg sm:text-2xl-custom"
                     size="lg"
                   >
                     GET STARTED {" >>"}
