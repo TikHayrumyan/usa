@@ -55,10 +55,10 @@ export default function OurServices() {
                 key={index}
               >
                 <div className="flex sm:items-start items-center  sm:space-x-1 sm:mb-[0.7384vw] ">
-                  <span className="font-semibold sm:text-6xl-custom text-[4vw]  text-white">
+                  <span className="font-semibold sm:text-6xl-custom text-[3.5vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-semibold sm:text-6xl-custom text-[4vw] text-white ">
+                  <h2 className="font-semibold sm:text-6xl-custom text-[3.5vw] text-white ">
                     {item.title}
                   </h2>
                 </div>
