@@ -150,13 +150,22 @@
 
 
 @media only screen and (max-width: 600px) {
-  .logos img {
-    width: 190px !important;
+  img.h-auto.object-contain.py-5 {
+    /* max-width: 190px; */
+    margin-left: 40px;
+    max-height: 80px;
     height: auto;
-    padding-right: 10px;
-    /* margin-top: 30px; */
-    object-fit: cover;
+    width: auto;
   }
+
+
+  /* .logos img {
+    max-height: 70px;
+    max-width: 190px !important;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+  } */
 
   /* .logosUl{
     height: 10vw;
@@ -199,6 +208,13 @@
     width: auto !important;
     padding-right: 10px;
     margin-top: 30px;
+  }
+
+  img.h-auto.object-contain.py-5 {
+    max-width: 11vw;
+    max-height: 10.5vw;
+    height: auto;
+    width: auto;
   }
 }
 

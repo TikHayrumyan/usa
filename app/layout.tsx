@@ -17,9 +17,7 @@ const myFont = localFont({
 export const metadata: Metadata = {
   title: "Creator Deck",
   description: "An Agency That Engineers Influence",
-  icons: {
-    icon: "../public/Logos/redLogoMobile.png",
-  },
+ 
 };
 
 export default function RootLayout({
@@ -29,8 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={myFont.className}>
+      <head>
       <link rel="icon" href="../public/Logos/redLogoMobile.png" sizes="any" />
+
+      </head>
+      <body className={myFont.className}>
         <Header />
         {children}
         <Footer />

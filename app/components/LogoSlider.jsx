@@ -4,37 +4,40 @@ import Glide from "@glidejs/glide";
 import Image from "next/image";
 export const sliderImg = [
   {
-    path: "/ClientLogos/IMG_2569.PNG",
+    path: "/ClientLogos/3.png",
   },
   {
-    path: "/ClientLogos/IMG_2570.PNG",
+    path: "/ClientLogos/2.png",
   },
   {
-    path: "/ClientLogos/IMG_2571.PNG",
+    path: "/ClientLogos/1.png",
   },
   {
-    path: "/ClientLogos/IMG_2572.PNG",
+    path: "/ClientLogos/7.png",
   },
   {
-    path: "/ClientLogos/IMG_2573.PNG",
+    path: "/ClientLogos/5.png",
   },
   {
-    path: "/ClientLogos/IMG_2574.PNG",
+    path: "/ClientLogos/6.png",
   },
   {
-    path: "/ClientLogos/IMG_2575.PNG",
+    path: "/ClientLogos/4.png",
   },
   {
-    path: "/ClientLogos/IMG_2576.PNG",
+    path: "/ClientLogos/10.png",
   },
   {
-    path: "/ClientLogos/IMG_2577.PNG",
+    path: "/ClientLogos/9.png",
   },
   {
-    path: "/ClientLogos/IMG_2578.PNG",
+    path: "/ClientLogos/8.png",
   },
   {
-    path: "/ClientLogos/IMG_2579.PNG",
+    path: "/ClientLogos/11.png",
+  },
+  {
+    path: "/ClientLogos/12.png",
   },
 ];
 export default function LogoSlider({ num }) {
@@ -52,11 +55,12 @@ export default function LogoSlider({ num }) {
       },
       breakpoints: {
         1024: {
-          perView: 4,
+          perView: 6,
+          gap: 10,
         },
         640: {
-          perView: 4,
-          // gap: 36,
+          perView: 5,
+          // gap: 50,
         },
       },
     }).mount();
@@ -80,8 +84,8 @@ export default function LogoSlider({ num }) {
                     <Image
                       src={item.path}
                       className="h-auto object-contain py-5 "
-                      width={450}
-                      height={300}
+                      width={250}
+                      height={100}
                       alt="Logo"
                     />
                   </li>

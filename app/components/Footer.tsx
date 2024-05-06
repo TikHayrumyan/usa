@@ -5,6 +5,33 @@ import instagram from "../../public/socialMedia/logo-instagram_white.png";
 import linkedin from "../../public/socialMedia/log-linkedin_White.png";
 import logo from "../../public/Logos/redLogoMobile.png";
 
+export const Navlinks = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Work",
+    href: "/comingsoon/work",
+  },
+  {
+    name: "About",
+    href: "/comingsoon/about",
+  },
+  {
+    name: "Services",
+    href: "/comingsoon/services",
+  },
+  {
+    name: "Resources",
+    href: "/comingsoon/resources",
+  },
+  {
+    name: "Login",
+    href: "/comingsoon/login",
+  },
+];
+
 export default function Footer() {
   return (
     <div className="w-full flex justify-center sm:h-auto bg-[#2e2e2e] sm:mt-0 sm:pt-[4.428vw] pt-5 pb-5 sm:pb-[1.844vw] ">
@@ -25,27 +52,27 @@ export default function Footer() {
           </button>
         </div>
         <div className="flex sm:space-x-5-custom space-x-3 items-center  sm:max-w-[10vw] sm:justify-center justify-start sm:p-[1.472vw] sm:ml-[-1.472vw] pt-10 pb-6">
-          <Link href="/">
+          <Link href="https://www.tiktok.com/@creator.deck" target="_blank">
             <Image
-              alt="socialIcons"
+              alt="TiktokIcon"
               src={tiktok}
               width={50}
               height={50}
               className="sm:w-[1.5vw] w-4 h-auto"
             />
           </Link>
-          <Link href="/">
+          <Link href="https://www.instagram.com/creator.deck" target="_blank">
             <Image
-              alt="socialIcons"
+              alt="InstagramIcon"
               src={instagram}
               width={50}
               height={50}
               className="sm:w-[1.7vw] w-5 h-auto"
             />
           </Link>
-          <Link href="/">
+          <Link href="https://www.linkedin.com/company/creator-deck" target="_blank">
             <Image
-              alt="socialIcons"
+              alt="LinkedinIcon"
               src={linkedin}
               width={50}
               height={50}
@@ -56,7 +83,15 @@ export default function Footer() {
         <div className="flex items-center justify-between mt-20 sm:mt-[3.6842vw]">
           <div className="flex flex-col sm:space-y-1-custom -space-y-2">
             <p className="w-auto h-auto text-white uppercase mb-3 font-medium sm:text-3xl-custom text-[2.5vw]">
-              home work about services resources login
+            {Navlinks.map((item, index) => {
+                return (
+                  <>
+                      <Link href={item.href} legacyBehavior passHref>
+                          {item.name + " "}
+                      </Link>
+                  </>
+                );
+              })}
             </p>
             <p className="w-auto h-auto text-white font-normal sm:text-3xl-custom text-[2.5vw]">
               2024 Creator Deck. All Rights Reserved. Terms and Conditions Privacy Policy

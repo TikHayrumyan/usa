@@ -117,7 +117,7 @@ export default function Home() {
           />
           <Button
             variant="default"
-            className="uppercase bg-[#2e2e2e] hover:bg-[#fe522d] hover:text-[#fe522d] sm:w-[50%] text-[0.7rem] sm:my-0 mt-10 sm:hidden flex w-[50%] self-center"
+            className="uppercase bg-[#2e2e2e] hover:bg-[#fe522d] hover:text-[#fe522d] sm:w-[50%] text-xs sm:my-0 mt-10 sm:hidden flex w-[55%] self-center py-3 px-7"
           >
             check out our work {`>>`}
           </Button>

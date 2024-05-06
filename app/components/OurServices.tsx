@@ -58,7 +58,7 @@ export default function OurServices() {
                   <span className="font-[700] sm:text-6xl-custom text-[5vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-[700] sm:text-6xl-custom text-[5vw] text-white ">
+                  <h2 className="font-[700] sm:text-6xl-custom text-[5vw] text-white sm:ml-0 ml-[1vw]">
                     {item.title}
                   </h2>
                 </div>

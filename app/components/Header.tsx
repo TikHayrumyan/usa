@@ -42,9 +42,7 @@ export const Navlinks = [
 
 export default function Header() {
   const pathname = usePathname();
-  console.log("====================================");
-  console.log(pathname);
-  console.log("====================================");
+
   return (
     <div className="bg-[#2a2a2a] sm:h-[20vh] h-[10vh] flex items-center">
       <div className="container flex justify-between items-center">
