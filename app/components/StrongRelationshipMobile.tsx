@@ -13,7 +13,7 @@ export default function StrongRelationshipMobile() {
         "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- LUSA",
       img: Lusa,
-      percentOne: "309,1%",
+      percentOne: "309.1%",
       percentOneName: "ER",
       percentTwo: "35",
       percentTwoName: "IMPRESSIONS",
@@ -96,7 +96,7 @@ export default function StrongRelationshipMobile() {
                       "flex flex-col sm:w-[50%] space-y-7 pb-5"
                     )}
                   >
-                    <p className="font-semibold w-auto sm:text-6xl-custom sm:mt-0 mt-16 text-[#2e2e2e] ">
+                    <p className="font-[700] w-auto sm:text-6xl-custom sm:mt-0 mt-16 text-[#2e2e2e] ">
                       {description}
                     </p>
                     <p className="text-xl w-auto">{name}</p>

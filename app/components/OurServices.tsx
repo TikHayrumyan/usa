@@ -55,10 +55,10 @@ export default function OurServices() {
                 key={index}
               >
                 <div className="flex sm:items-start items-center  sm:space-x-1 sm:mb-[0.7384vw] ">
-                  <span className="font-semibold sm:text-6xl-custom text-[3.5vw]  text-white">
+                  <span className="font-[700] sm:text-6xl-custom text-[5vw]  text-white">
                     {item.num}
                   </span>
-                  <h2 className="font-semibold sm:text-6xl-custom text-[3.5vw] text-white ">
+                  <h2 className="font-[700] sm:text-6xl-custom text-[5vw] text-white ">
                     {item.title}
                   </h2>
                 </div>
@@ -67,7 +67,7 @@ export default function OurServices() {
                 </p>
                 <Link href={item.href}>
                   <Button
-                    className="bg-[#fe522d] sm:hover:bg-[#fe522d] sm:hover:text-white sm:flex hidden sm:mt-[0.5905vw] mb-[4vw]  ml-[5rem] sm:ml-[3.6842vw] px-16 sm:px-[2.951vw] py-8 sm:py-[1.472vw] rounded-lg sm:text-2xl-custom"
+                    className="bg-[#fe522d] hover:bg-[#ffffff] hover:text-black sm:flex hidden sm:mt-[0.5905vw] mb-[4vw]  ml-[5rem] sm:ml-[3.6842vw] px-16 sm:px-[2.951vw] py-8 sm:py-[1.472vw] rounded-lg sm:text-2xl-custom"
                     size="lg"
                   >
                     GET STARTED {" >>"}
@@ -81,7 +81,7 @@ export default function OurServices() {
           href={"/"}
           className="sm:hidden flex w-[55%] self-center  relative z-50 mt-7"
         >
-          <Button className="bg-[#fe522d] text-xs py-3 px-7 sm:hidden flex w-full h-[50%]">
+          <Button className="bg-[#fe522d] hover:text-black hover:bg-[#ffffff] text-xs py-3 px-7 sm:hidden flex w-full h-[50%]">
             CHECK OUT OUR WORK {">>"}
           </Button>
         </Link>

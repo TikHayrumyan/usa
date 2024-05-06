@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import White_CD_HalftoneBackground from "../../../public/patterns/backgroundPattern.png";
 import White_CD_HalftoneBackground from "../../../public/patterns/backgroundPattern.png";
 
 export default function ComingSoon() {
@@ -12,11 +13,11 @@ export default function ComingSoon() {
           alt="pattern"
           className="absolute top-0 left-0 bottom-0 object-cover opacity-10 h-full w-full z-0"
         />
-        <h1 className="sm:text-[10vw] text-6xl sm:leading-[1] text-center font-bold italic text-[#fe522d] sm:w-[50vw] relative">
+        <h1 className="sm:text-[10vw] text-7xl sm:leading-[1] text-center font-bold italic text-[#fe522d] sm:w-[50vw] relative">
           COMING SOON!
         </h1>
-        <p className="text-center sm:w-[40vw] sm:text-[2vw] sm:leading-[1] text-xl relative text-white sm:mt-10 mt-10">
-          In the meantime, sign up for our newsletter below to stay up to date
+        <p className="text-center sm:w-[40vw] w-[60vw] sm:text-[2vw] sm:leading-[1] text-xs relative text-white sm:mt-10 mt-10">
+          In the meantime, sign up for our newsletter below to stay up to date.
         </p>
       </div>
     </div>

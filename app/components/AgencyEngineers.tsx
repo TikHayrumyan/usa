@@ -114,7 +114,7 @@ export default function AgencyEngineers() {
           className="flex w-[92%] h-80 mt-3 z-20 object-cover"
         />
       </div>
-      <div className="flex flex-col w-full items-center justify-center h-auto mt-[1.844vw] text-lg space-y-10">
+      <div className="flex flex-col w-full items-center justify-center h-auto mt-[9vw] sm:mt-[1.844vw] text-lg  space-y-10">
         <p className="sm:w-[60vw] text-center text-lg not-italic font-normal leading-[1.2rem] w-full sm:leading-[2.2143vw] text-white relative z-50 sm:text-4xl-custom">
           Over the past 10 years, we&apos;ve fueled the evolution of influencer
           marketing.
@@ -126,7 +126,7 @@ export default function AgencyEngineers() {
         <Button
           variant="secondary"
           size="lg"
-          className="bg-[#fe522d] sm:hover:bg-[#fe522d] sm:hover:text-white sm:rounded-[0.7384vw] uppercase sm:py-[2.5803vw] sm:text-2xl-custom  sm:px-[6.646vw] text-white hover:text-black relative z-20"
+          className="bg-[#fe522d] hover:bg-[#ffffff] sm:rounded-[0.7384vw] uppercase sm:py-[2.5803vw] sm:text-2xl-custom  sm:px-[6.646vw] text-white hover:text-black relative z-20"
         >
           Check out our work {`>>`}
         </Button>

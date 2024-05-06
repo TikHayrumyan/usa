@@ -4,40 +4,37 @@ import Glide from "@glidejs/glide";
 import Image from "next/image";
 export const sliderImg = [
   {
-    path: "/ClientLogos/Yves_Saint_Laurent_white.png",
-  },
-  // {
-  //   path: "/ClientLogos/57e1f21f7a9f9975eb85408f0a647c77.png",
-  // },
-  {
-    path: "/ClientLogos/loreal-logo_white.png",
+    path: "/ClientLogos/IMG_2569.PNG",
   },
   {
-    path: "/ClientLogos/IT_Cosmetics_white.png",
+    path: "/ClientLogos/IMG_2570.PNG",
   },
   {
-    path: "/ClientLogos/maybelline-new-york-logo-WHITE.png",
+    path: "/ClientLogos/IMG_2571.PNG",
   },
   {
-    path: "/ClientLogos/michaels-logo_white.png",
+    path: "/ClientLogos/IMG_2572.PNG",
   },
   {
-    path: "/ClientLogos/OpenFarm_White.png",
+    path: "/ClientLogos/IMG_2573.PNG",
   },
   {
-    path: "/ClientLogos/Pair-of-Thieves-New-Logo-white.png",
+    path: "/ClientLogos/IMG_2574.PNG",
   },
   {
-    path: "/ClientLogos/patron-logo_white.png",
+    path: "/ClientLogos/IMG_2575.PNG",
   },
   {
-    path: "/ClientLogos/pf-changs-logo-white.png",
+    path: "/ClientLogos/IMG_2576.PNG",
   },
   {
-    path: "/ClientLogos/Shein-logo_White.png",
+    path: "/ClientLogos/IMG_2577.PNG",
   },
   {
-    path: "/ClientLogos/UD-Logo_White.png",
+    path: "/ClientLogos/IMG_2578.PNG",
+  },
+  {
+    path: "/ClientLogos/IMG_2579.PNG",
   },
 ];
 export default function LogoSlider({ num }) {
@@ -58,7 +55,7 @@ export default function LogoSlider({ num }) {
           perView: 4,
         },
         640: {
-          perView: 6,
+          perView: 4,
           // gap: 36,
         },
       },
@@ -83,8 +80,8 @@ export default function LogoSlider({ num }) {
                     <Image
                       src={item.path}
                       className="h-auto object-contain py-5 "
-                      width={150}
-                      height={100}
+                      width={450}
+                      height={300}
                       alt="Logo"
                     />
                   </li>

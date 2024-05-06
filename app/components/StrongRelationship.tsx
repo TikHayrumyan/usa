@@ -13,7 +13,7 @@ export default function StrongRelationship() {
         "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- LUSA",
       img: Lusa,
-      percentOne: "309,1%",
+      percentOne: "309.1%",
       percentOneName: "ER",
       percentTwo: "35",
       percentTwoName: "IMPRESSIONS",
@@ -39,8 +39,8 @@ export default function StrongRelationship() {
         "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
       name: "- REDKEN",
       img: REDKEN,
-      percentOne: "76%",
-      percentOneName: "DELIVERED",
+      percentOne: "35",
+      percentOneName: "IMPRESSIONS",
       percentTwo: "35",
       percentTwoName: "IMPRESSIONS",
       percentTree: "35",
@@ -91,7 +91,7 @@ export default function StrongRelationship() {
                   )}
                 >
                   <div className="flex flex-col sm:w-[44vw] space-y-7-custom">
-                    <p className="font-semibold sm:text-6xl-custom sm:mt-0  text-[#2e2e2e]">
+                    <p className="font-[700] sm:text-6xl-custom sm:mt-0  text-[#2e2e2e]">
                       {description}
                     </p>
                     <p className="text-4xl-custom">{name}</p>

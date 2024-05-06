@@ -20,7 +20,7 @@ export default function Footer() {
             placeholder="EMAIL ADDRESS"
             className="sm:h-[4.8vw] sm:w-[20vw] sm:pt-[0.9217vw] sm:pl-[0.9217vw] sm:mr-[0.9217vw] py-2 pl-1 placeholder:text-sm sm:placeholder:text-[1.5vw]"
           />
-          <button className="sm:border-4  sm:ml-0 ml-3 border-2 sm:rounded-lg rounded-sm sm:p-[0.7384vw] pt-[0.5vw] px-1 sm:text-2xl-custom text-sm uppercase text-white font-normal sm:w-[10vw] border-white ">
+          <button className="sm:border-4  sm:ml-0 ml-3 border-2 sm:rounded-lg rounded-sm sm:p-[0.7384vw] pt-[0.5vw] px-1 sm:text-2xl-custom text-sm uppercase text-white hover:text-[#2E2E2E] hover:bg-white font-normal sm:w-[10vw] border-white ">
             Subscribe
           </button>
         </div>
@@ -55,12 +55,11 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-between mt-20 sm:mt-[3.6842vw]">
           <div className="flex flex-col sm:space-y-1-custom -space-y-2">
-            <p className="w-auto h-auto text-white uppercase mb-3 font-medium sm:text-3xl-custom text-[0.7rem]">
+            <p className="w-auto h-auto text-white uppercase mb-3 font-medium sm:text-3xl-custom text-[2.5vw]">
               home work about services resources login
             </p>
-            <p className="w-auto h-auto text-white font-normal sm:text-3xl-custom text-[0.7rem]">
-              2024 Creator Deck. All Rights Reserved Terms and Conditions
-              Privacy Policy
+            <p className="w-auto h-auto text-white font-normal sm:text-3xl-custom text-[2.5vw]">
+              2024 Creator Deck. All Rights Reserved. Terms and Conditions Privacy Policy
             </p>
           </div>
           <Image
