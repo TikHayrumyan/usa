@@ -5,6 +5,8 @@ import LAROLLETTES_HOMPAGE from "../../public/imgs/LAROLLETTES_HOMPAGE.jpg";
 import ICESKAKTER_UD from "../../public/imgs/ICESKAKTER_UD-HOMPAGE.gif";
 import { Button } from "@/components/ui/button";
 import { useRef } from "react";
+import Link from "next/link";
+
 // import { slideFromBottom } from "@/utils/motion";
 
 export default function AgencyEngineers() {
@@ -123,13 +125,15 @@ export default function AgencyEngineers() {
           industry opportunities and build solutions that propel success in the
           years ahead.
         </p>
+        <Link href="/comingsoon/work">
         <Button
           variant="secondary"
           size="lg"
-          className="bg-[#fe522d] hover:bg-[#ffffff] sm:rounded-[0.7384vw] sm:w-auto w-[55%]   uppercase sm:py-[2.5803vw] sm:text-2xl-custom  sm:px-[6.646vw] text-white hover:text-black relative z-20 text-xs"
+          className="bg-[#fe522d] hover:bg-[#ffffff] sm:rounded-[0.7384vw]  w-[96%] sm:w-auto  uppercase sm:py-[2.5803vw] sm:text-2xl-custom  sm:px-[6.646vw] text-white hover:text-black relative z-20 text-xs"
         >
           Check out our work {`>>`}
         </Button>
+        </Link>
       </div>
     </div>
   );

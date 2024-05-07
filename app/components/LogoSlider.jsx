@@ -84,8 +84,8 @@ export default function LogoSlider({ num }) {
                     <Image
                       src={item.path}
                       className="h-auto object-contain py-5 "
-                      width={250}
-                      height={100}
+                      width={2000}
+                      height={400}
                       alt="Logo"
                     />
                   </li>

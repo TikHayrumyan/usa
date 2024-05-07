@@ -78,21 +78,23 @@
   .text-lg-custom {
     @apply text-[0.8292vw] leading-[1.2917vw]
   }
-
-  .text-4xl-custom {
-    @apply text-[1.6614vw] leading-[1.844vw]
-  }
-
   .text-2xl-custom {
     @apply text-[1.106vw] leading-[1.472vw]
   }
-
   .text-3xl-custom {
     @apply text-[1.3825vw] leading-[1.6614vw]
   }
-
+  .text-4xl-custom {
+    @apply text-[1.6614vw] leading-[1.844vw]
+  }
+  .text-5xl-custom {
+    @apply text-[4vw] leading-[1]
+  }
   .text-6xl-custom {
     @apply text-[2.769vw] leading-[1]
+  }
+  .text-7xl-custom {
+    @apply text-[6vw] leading-[1]
   }
 }
 
@@ -150,13 +152,36 @@
 
 
 @media only screen and (max-width: 600px) {
-  img.h-auto.object-contain.py-5 {
-    /* max-width: 190px; */
+  /* img.h-auto.object-contain.py-5 {
     margin-left: 40px;
     max-height: 80px;
     height: auto;
     width: auto;
+  } */
+
+  img.h-auto.object-contain.py-5 {
+    max-height: 20vw;
+    margin-left: 20vw;
+    height: auto;
+    width: auto;
   }
+
+  li.logos {
+    display: flex;
+    justify-content: center;
+    width: fit-content!important;
+    max-width: 32vw;
+}
+
+  svg.lucide.lucide-x.h-4.w-4 {
+    width: 8.5vw;
+    height: 8.5vw;
+    color: white;
+}
+
+.rfm-child {
+  margin-right: -66vw;
+}
 
 
   /* .logos img {
@@ -211,11 +236,18 @@
   }
 
   img.h-auto.object-contain.py-5 {
-    max-width: 11vw;
-    max-height: 10.5vw;
+    max-height: 12vw;
+    margin-left: 20vw;
     height: auto;
     width: auto;
   }
+
+  li.logos {
+    display: flex;
+    justify-content: center;
+    width: fit-content!important;
+    max-width: 25vw;
+}
 }
 
 .marqueeDiv {

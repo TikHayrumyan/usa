@@ -33,7 +33,7 @@ export default function GetInTouch() {
         </h2>
       </motion.div>
       <Link
-        href="/"
+        href="/comingsoon/work"
         className="sm:w-[23vw] hover:bg-white hover:text-black  sm:text-2xl-custom text-xs w-[35%] rounded-sm flex items-center justify-center bg-transparent sm:h-[4vw] h-6 border-2 sm:border-4 border-white sm:rounded-xl text-white"
       >
         INFO {">>"}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LogoSlider from "./components/LogoSlider";
+import Link from "next/link";
 // import White_CD_HalftoneBackground from "../public/patterns/backgroundPattern.png";
 import White_CD_HalftoneBackground from "../public/patterns/CD_HalftoneBackgroundWebsite_White.svg";
 
@@ -16,17 +17,17 @@ import StrongRelationshipMobile from "./components/StrongRelationshipMobile";
 export default function Home() {
   return (
     <main className="flex flex-col bg-[#F3F3F3]">
-      <div className="sm:h-[80vh] w-full relative ">
-        {/* <video className="w-full h-[90vh]" autoPlay loop muted>
-          <source src="/videos/example.mp4" />
-        </video> */}
-        <Image
+      <div className="sm:h-[55.5vw] h-[55.2vw] w-full relative ">
+        <video className="w-full h-auto object-cover" autoPlay loop muted>
+          <source src="https://lexoqhgjbjwduzwqdmao.supabase.co/storage/v1/object/sign/src/DB%20Backup/Creatordeck.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzcmMvREIgQmFja3VwL0NyZWF0b3JkZWNrLm1wNCIsImlhdCI6MTcxNTEwODE3NSwiZXhwIjoyMDMwNDY4MTc1fQ.8W84pH6mu_p2LQqv2Z3QyaKYYaSTgSubElo8K1UTajQ&t=2024-05-07T18%3A56%3A16.459Z" />
+        </video>
+        {/* <Image
           alt="Main Image"
           src={MainImg}
           width={1000}
           height={1000}
           className="object-cover sm:h-full  w-full"
-        />
+        /> */}
       </div>
       {/* section 2 */}
       <div className="w-full overflow-x-hidden h-auto flex flex-col bg-[#2e2e2e] relative border-b-8 border-b-black ">
@@ -54,20 +55,26 @@ export default function Home() {
                 {" "}
                 Creator Deck,{" "}
               </span>{" "}
-              made the list!
+              made the
+              <Link href="https://www.prweb.com/releases/creator-deck-ranks-on-the-2022-inc-5000-annual-list-of-fastest-growing-companies-803127673.html" target="_blank"> list!</Link>
             </p>
             <p className="sm:w-full w-[60%] text-white font-normal sm:text-[1.844vw] text-[0.8rem]">
               Inc. 5000, America&apos;s Fastest - Growing Private Company.
             </p>
           </div>
           <div className="absolute right-0 bottom-0 z-50">
-            <Image
-              alt="img"
-              src={inc}
-              width={500}
-              height={400}
-              className="sm:w-[37vw] w-44 h-auto object-cover"
-            />
+            <Link
+              href="https://www.prweb.com/releases/creator-deck-ranks-on-the-2022-inc-5000-annual-list-of-fastest-growing-companies-803127673.html"
+              target="_blank"
+            >
+              <Image
+                alt="img"
+                src={inc}
+                width={500}
+                height={400}
+                className="sm:w-[37vw] w-44 h-auto object-cover"
+              />
+            </Link>
           </div>
         </div>
       </div>
@@ -101,12 +108,14 @@ export default function Home() {
                 Influencer+
               </span>
             </p>
-            <Button
-              variant="default"
-              className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] hover:bg-[#fe522d]  rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
-            >
-              check out our work {`>>`}
-            </Button>
+            <Link href="/comingsoon/work">
+              <Button
+                variant="default"
+                className="uppercase bg-[#2e2e2e] sm:text-[1.2162vw] hover:bg-[#fe522d]  rounded-2xl sm:w-[27.2vw] sm:my-0 my-10 sm:py-[2.5803vw] sm:flex hidden"
+              >
+                check out our work {`>>`}
+              </Button>
+            </Link>
           </div>
           <Image
             className="sm:w-[28.424vw] flex sm:h-full object-cover w-96 h-[65vw] sm:mt-0 mt-8"
@@ -115,12 +124,14 @@ export default function Home() {
             width={300}
             height={300}
           />
-          <Button
-            variant="default"
-            className="uppercase bg-[#2e2e2e] hover:bg-[#fe522d] hover:text-[#fe522d] sm:w-[50%] text-xs sm:my-0 mt-10 sm:hidden flex w-[55%] self-center py-3 px-7"
-          >
-            check out our work {`>>`}
-          </Button>
+          <Link href="/comingsoon/work" className="w-[100%] flex justify-center sm:w-0">
+            <Button
+              variant="default"
+              className="uppercase bg-[#2e2e2e] hover:bg-[#fe522d] hover:text-[#fe522d]  sm:w-[50%] text-xs sm:my-0 mt-10 sm:hidden flex  self-center py-3 px-7"
+            >
+              check out our work {`>>`}
+            </Button>
+          </Link>
         </div>
       </div>
       {/* section 4 */}

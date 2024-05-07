@@ -87,7 +87,7 @@ export default function Footer() {
                 return (
                   <>
                       <Link href={item.href} legacyBehavior passHref>
-                          {item.name + " "}
+                          <a className="hover:!text-[#fe522d] font-[500]"> {item.name + " "} </a>
                       </Link>
                   </>
                 );

@@ -10,46 +10,46 @@ export default function StrongRelationship() {
     {
       id: 1,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Deliver always-on programs across social while increasing earned content and viral moments",
       name: "- LUSA",
       img: Lusa,
-      percentOne: "309.1%",
-      percentOneName: "ER",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "214MM+",
+      percentOneName: "DELIVERED IMPRESSIONS",
+      percentTwo: "53%",
+      percentTwoName: "  ENGAGEMENT  RATE",
+      percentTree: "70%",
+      percentTreeName: "  EARNED  CONTENT",
     },
     {
       id: 2,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Create strategies to drive social content lower down the funnel, generating more traffic and sales and showing bottom-line impact to your business",
       name: "- SHEIN",
       img: Shein,
-      percentOne: "35",
-      percentOneName: "IMPRESSIONS",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "418%",
+      percentOneName: "RETURN ON AD SPEND",
+      percentTwo: "3,040%",
+      percentTwoName: "INCREASE IN YEAR-OVER-YEAR SALES",
+      percentTree: "2.4M",
+      percentTreeName: "IN SALES                    ",
     },
     {
       id: 3,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Help launch and position your product in engaging and exciting ways that center on a human-centric approach to storytelling",
       name: "- REDKEN",
       img: REDKEN,
-      percentOne: "35",
-      percentOneName: "IMPRESSIONS",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "$0.01",
+      percentOneName: "COST PER VIEW",
+      percentTwo: "76%",
+      percentTwoName: "EARNED CONTENT",
+      percentTree: "18%",
+      percentTreeName: "ENGAGEMENT RATE",
     },
     {
       id: 4,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Generate brand love, cultivate community, and build advocacy for your products",
       name: "- OPEN FARM",
       img: openFarm,
       percentOne: "35",
@@ -63,7 +63,7 @@ export default function StrongRelationship() {
   return (
     <div className="container flex flex-col space-y-10-custom sm:pb-[5vw]">
       <h1 className="text-[#2a2a2a] uppercase font-bold sm:text-[9.211vw] leading-[1] sm:w-full">
-        WE&apos;RE BUILT ON STRONG RELATIONSHIPS
+        WE&apos;RE Built on Strong Relationships To:
       </h1>
       <div className="w-full flex flex-col">
         {data.map(
@@ -106,11 +106,11 @@ export default function StrongRelationship() {
                     />
                     <div className="absolute flex w-full h-[7vw] bg-[#fe522d] bottom-0 rounded-xl items-center justify-center">
                       <div className="flex w-[90%] items-center justify-between">
-                        <div className="flex flex-col items-center justify-between">
+                        <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
                           <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw]  text-white">
                             {percentOne}
                           </span>
-                          <span className="sm:text-3xl-custom   text-white">
+                          <span className="sm:text-2xl-custom   text-white text-center">
                             {percentOneName}
                           </span>
                         </div>
@@ -118,11 +118,11 @@ export default function StrongRelationship() {
                           orientation="vertical"
                           className="bg-white text-white h-[3.6842vw]"
                         />
-                        <div className="flex flex-col items-center justify-between">
+                        <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
                           <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw] text-white">
                             {percentTwo}
                           </span>
-                          <span className="sm:text-3xl-custom   text-white">
+                          <span className="sm:text-2xl-custom   text-white text-center">
                             {percentTwoName}
                           </span>
                         </div>
@@ -130,11 +130,11 @@ export default function StrongRelationship() {
                           orientation="vertical"
                           className="bg-white text-white  h-[3.6842vw]"
                         />
-                        <div className="flex flex-col items-center justify-between">
+                        <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
                           <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw] text-white">
                             {percentTree}
                           </span>
-                          <span className="sm:text-3xl-custom  text-white">
+                          <span className="sm:text-2xl-custom  text-white text-center">
                             {percentTreeName}
                           </span>
                         </div>

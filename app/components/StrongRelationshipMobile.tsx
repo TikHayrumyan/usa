@@ -10,55 +10,29 @@ export default function StrongRelationshipMobile() {
     {
       id: 1,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Deliver always-on programs across social while increasing earned content and viral moments",
       name: "- LUSA",
       img: Lusa,
-      percentOne: "309.1%",
-      percentOneName: "ER",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "214MM+",
+      percentOneName: "DELIVERED IMPRESSIONS",
+      percentTwo: "53%",
+      percentTwoName: "      ENGAGEMENT       RATE",
+      percentTree: "70%",
+      percentTreeName: "EARNED CONTENT",
     },
     {
       id: 2,
       description:
-        "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
+        "Create strategies to drive social content lower down the funnel, generating more traffic and sales and showing bottom-line impact to your business",
       name: "- SHEIN",
       img: Shein,
-      percentOne: "35",
-      percentOneName: "IMPRESSIONS",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "418%",
+      percentOneName: "         RETURN ON          AD SPEND",
+      percentTwo: "3,040%",
+      percentTwoName: "INCREASE IN YEAR-OVER-YEAR SALES",
+      percentTree: "2.4M",
+      percentTreeName: "IN SALES",
     },
-    // {
-    //   id: 3,
-    //   description:
-    //     "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
-    //   name: "- REDKEN",
-    //   img: REDKEN,
-    //   percentOne: "76%",
-    //   percentOneName: "DELIVERED",
-    //   percentTwo: "35",
-    //   percentTwoName: "IMPRESSIONS",
-    //   percentTree: "35",
-    //   percentTreeName: "IMPRESSIONS",
-    // },
-    // {
-    //   id: 4,
-    //   description:
-    //     "Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnafeugiatn lobortis nisl ut aliquip ex ea commodo consequat.",
-    //   name: "- OPEN FARM",
-    //   img: openFarm,
-    //   percentOne: "35",
-    //   percentOneName: "IMPRESSIONS",
-    //   percentTwo: "35",
-    //   percentTwoName: "IMPRESSIONS",
-    //   percentTree: "35",
-    //   percentTreeName: "IMPRESSIONS",
-    // },
   ];
   return (
     <div className="container flex flex-col sm:space-y-1-custom0 space-y-5">
@@ -115,12 +89,12 @@ export default function StrongRelationshipMobile() {
                       className="w-[78vw] h-[95vw] object-cover self-start"
                     />
                     <div className="absolute flex w-[90%] h-[7vh] bg-[#fe522d] -bottom-10 rounded-xl items-center justify-evenly">
-                      <div className="flex w-[80%] items-center justify-between">
-                        <div className="flex flex-col items-center justify-between">
-                          <span className="sm:text-3xl-custom font-bold text-3xl text-white">
+                      <div className="flex w-[90%] items-center justify-between">
+                        <div className="flex flex-col items-center justify-center w-[50%]">
+                          <span className="text-7xl-custom font-bold text-white mb-[1vw]">
                             {percentOne}
                           </span>
-                          <span className="sm:text-3xl-custom  text-sm text-white">
+                          <span className="text-6xl-custom  text-white text-center">
                             {percentOneName}
                           </span>
                         </div>
@@ -128,11 +102,11 @@ export default function StrongRelationshipMobile() {
                           orientation="vertical"
                           className="bg-white text-white h-14 w-[0.4vw]"
                         />
-                        <div className="flex flex-col  items-center justify-center">
-                          <span className="text-3xl font-bold  text-white">
+                        <div className="flex flex-col  items-center justify-center w-[50%]">
+                          <span className="text-7xl-custom font-bold  text-white mb-[1vw]">
                             {percentTwo}
                           </span>
-                          <span className="sm:text-3xl-custom  text-sm text-white">
+                          <span className="text-6xl-custom text-white text-center">
                             {percentTwoName}
                           </span>
                         </div>

@@ -26,12 +26,12 @@ export default function FooterSlider() {
             // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center marqueeDiv">
-              <span className=" text-lg sm:text-3xl-custom font-bold text-[#fe522d]">
+              <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
                 BRANDS:
               </span>
 
               <span
-                className="sm:text-3xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
+                className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
                 style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
               >
                 LET US HELP YOU ENGINEER INFLUENCE
@@ -51,12 +51,12 @@ export default function FooterSlider() {
             // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center ">
-              <span className=" text-lg sm:text-3xl-custom font-bold text-[#fe522d]">
+              <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
                 CREATORS:
               </span>
 
               <span
-                className="sm:text-3xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
+                className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
                 style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
               >
                 WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY
@@ -76,12 +76,12 @@ export default function FooterSlider() {
             // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center marqueeDiv">
-              <span className=" text-lg sm:text-3xl-custom font-bold text-[#fe522d]">
+              <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
                 BRANDS:
               </span>
 
               <span
-                className="sm:text-3xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
+                className="text-lg sm:text-4xl-custom  font-bold text-white flex w-auto items-center spanMobile"
                 style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
               >
                 LET US HELP YOU ENGINEER INFLUENCE
@@ -101,12 +101,12 @@ export default function FooterSlider() {
             // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center ">
-              <span className=" text-lg sm:text-3xl-custom font-bold text-[#fe522d]">
+              <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
                 CREATORS:
               </span>
 
               <span
-                className="sm:text-3xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
+                className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
                 style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
               >
                 WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY

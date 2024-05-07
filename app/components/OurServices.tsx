@@ -6,37 +6,37 @@ export default function OurServices() {
     {
       num: "01. ",
       title: "  STRATEGY + TREND REPORTING",
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      description: `We help our brand partners understand where to play and how to win by taking a nuanced approach to understanding each brand profile and providing strategic insight into what moves the needle through the lens of trending and culturally relevant marketing.`,
       href: "/",
     },
     {
       num: "02. ",
       title: `INFLUENCER CAMPAIGN MANAGEMENT`,
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      description: `We utilized our proprietary software and years of campaign process refinement to help our brands scale their campaign operations to build influencer advocacy through seamless and agile outreach, onboarding, creative briefing, contracting, and campaign support.`,
       href: "/",
     },
     {
       num: "03. ",
       title: "PUBLIC RELATIONS",
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      description: `We provide seasoned PR expertise and strategic counsel tailored to your unique business objectives, forging meaningful relationships with key opinion leaders and securing impactful coverage that amplifies your brand's reach and credibility.`,
       href: "/",
     },
     {
       num: "04. ",
-      title: "SOCIAL + COMMUNITY MANAGEMENT",
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      title: "SOCIAL AND COMMUNITY MANAGEMENT",
+      description: `We increase brand loyalty and evangelize new fans by leveraging owned channels and implementing an intentional brand strategy to showcase brand value that ties in key seasonal moments while leaving space to activate trends.`,
       href: "/",
     },
     {
       num: "05. ",
       title: " EXPERIENTIAL",
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      description: `We assemble experiences that create authentic connections and impactful storytelling while also leading public relations and partner strategy to drive lasting impact beyond the event, garnering attention and driving organic conversation and love around the brand.`,
       href: "/",
     },
     {
       num: "06. ",
       title: " AFFILIATE",
-      description: `We're a full-service influencer agency who partners with companies looking to scale influencer marketing. Companies with dedicated resources look to us to help shape influencer strategy, execution, reporting and enhance influencer feedback loops.`,
+      description: `We understand the need to create bottom-of-the-funnel impact so we help brands drive sales and traffic by creating affiliate networks and strategies that engage creators to organically and consistently drive conversion of products.`,
       href: "/",
     },
   ];
@@ -78,7 +78,7 @@ export default function OurServices() {
           );
         })}
         <Link
-          href={"/"}
+          href={"/comingsoon/work"}
           className="sm:hidden flex w-[55%] self-center  relative z-50 mt-7"
         >
           <Button className="bg-[#fe522d] hover:text-black hover:bg-[#ffffff] text-xs py-3 px-7 sm:hidden flex w-full h-[50%]">

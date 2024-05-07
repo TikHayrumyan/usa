@@ -67,9 +67,9 @@ export default function Header() {
                           active={pathname === item.href}
                           className={cn(
                             pathname === item.href
-                              ? " !text-white border-b-2 "
-                              : " !text-white",
-                            "uppercase  font-normal text-3xl-custom mx-[0.1847vw]"
+                              ? " !text-white border-b-2 hover:!text-[#fe522d] hover:border-[#fe522d]"
+                              : " !text-white hover:!text-[#fe522d]",
+                            "uppercase  font-normal font-[500] text-3xl-custom mx-[0.1847vw] hover:!text-[#fe522d]"
                           )}
                         >
                           {item.name}
