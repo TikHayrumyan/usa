@@ -73,7 +73,7 @@ export default function StrongRelationshipMobile() {
                     <p className="font-[700] w-auto sm:text-6xl-custom sm:mt-0 mt-16 text-[#2e2e2e] ">
                       {description}
                     </p>
-                    <p className="text-xl w-auto">{name}</p>
+                    {/* <p className="text-xl w-auto">{name}</p> */}
                   </div>
                   <div
                     className={cn(
@@ -91,7 +91,7 @@ export default function StrongRelationshipMobile() {
                     <div className="absolute flex w-[90%] h-[7vh] bg-[#fe522d] -bottom-10 rounded-xl items-center justify-evenly">
                       <div className="flex w-[90%] items-center justify-between">
                         <div className="flex flex-col items-center justify-center w-[50%]">
-                          <span className="text-7xl-custom font-bold text-white mb-[1vw]">
+                          <span className="text-7xl-mob-custom font-bold text-white mb-[1vw]">
                             {percentOne}
                           </span>
                           <span className="text-6xl-custom  text-white text-center">
@@ -103,7 +103,7 @@ export default function StrongRelationshipMobile() {
                           className="bg-white text-white h-14 w-[0.4vw]"
                         />
                         <div className="flex flex-col  items-center justify-center w-[50%]">
-                          <span className="text-7xl-custom font-bold  text-white mb-[1vw]">
+                          <span className="text-7xl-mob-custom font-bold  text-white mb-[1vw]">
                             {percentTwo}
                           </span>
                           <span className="text-6xl-custom text-white text-center">

@@ -55,7 +55,7 @@ export default function LogoSlider({ num }) {
       },
       breakpoints: {
         1024: {
-          perView: 6,
+          // perView: 6,
           gap: 10,
         },
         640: {

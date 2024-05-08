@@ -65,7 +65,7 @@ export default function OurServices() {
                 <p className="font-normal sm:text-4xl-custom sm:leading-[2.5vw]  text-white sm:flex hidden  sm:ml-[3.615vw]">
                   {item.description}
                 </p>
-                <Link href={item.href}>
+                <Link href="/comingsoon/work">
                   <Button
                     className="bg-[#fe522d] hover:bg-[#ffffff] hover:text-black sm:flex hidden sm:mt-[0.5905vw] mb-[4vw]  ml-[5rem] sm:ml-[3.6842vw] px-16 sm:px-[2.951vw] py-8 sm:py-[1.472vw] rounded-lg sm:text-2xl-custom"
                     size="lg"

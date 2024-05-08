@@ -18,8 +18,9 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-[#F3F3F3]">
       <div className="sm:h-[55.5vw] h-[55.2vw] w-full relative ">
-        <video className="w-full h-auto object-cover" autoPlay loop muted>
-          <source src="https://lexoqhgjbjwduzwqdmao.supabase.co/storage/v1/object/sign/src/DB%20Backup/Creatordeck.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzcmMvREIgQmFja3VwL0NyZWF0b3JkZWNrLm1wNCIsImlhdCI6MTcxNTEwODE3NSwiZXhwIjoyMDMwNDY4MTc1fQ.8W84pH6mu_p2LQqv2Z3QyaKYYaSTgSubElo8K1UTajQ&t=2024-05-07T18%3A56%3A16.459Z" />
+        <video className="w-full h-auto object-cover" controls  loop muted autoPlay  playsInline >
+          <source src="../videos/Mainvideo.mp4" />
+          {/* <source src="https://lexoqhgjbjwduzwqdmao.supabase.co/storage/v1/object/sign/src/DB%20Backup/Creatordeck.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzcmMvREIgQmFja3VwL0NyZWF0b3JkZWNrLm1wNCIsImlhdCI6MTcxNTEwODE3NSwiZXhwIjoyMDMwNDY4MTc1fQ.8W84pH6mu_p2LQqv2Z3QyaKYYaSTgSubElo8K1UTajQ&t=2024-05-07T18%3A56%3A16.459Z" /> */}
         </video>
         {/* <Image
           alt="Main Image"

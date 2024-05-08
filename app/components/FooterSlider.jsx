@@ -32,10 +32,9 @@ export default function FooterSlider() {
 
               <span
                 className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
-                style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
+                style={{ marginLeft: "0.5vw", marginRight: "1.5vw" }}
               >
-                LET US HELP YOU ENGINEER INFLUENCE
-              </span>
+                LET US HELP YOU ENGINEER INFLUENCE</span>
 
               <Image
                 alt="logo"
@@ -57,10 +56,9 @@ export default function FooterSlider() {
 
               <span
                 className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
-                style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
+                style={{ marginLeft: "0.5vw", marginRight: "1.5vw" }}
               >
-                WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY
-              </span>
+                WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY</span>
 
               <Image
                 alt="logo"
@@ -82,10 +80,9 @@ export default function FooterSlider() {
 
               <span
                 className="text-lg sm:text-4xl-custom  font-bold text-white flex w-auto items-center spanMobile"
-                style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
+                style={{ marginLeft: "0.5vw", marginRight: "1.5vw" }}
               >
-                LET US HELP YOU ENGINEER INFLUENCE
-              </span>
+                LET US HELP YOU ENGINEER INFLUENCE</span>
 
               <Image
                 alt="logo"
@@ -107,10 +104,9 @@ export default function FooterSlider() {
 
               <span
                 className="sm:text-4xl-custom  text-lg font-bold text-white flex w-auto items-center spanMobile"
-                style={{ marginLeft: "0.5vw", marginRight: "1vw" }}
+                style={{ marginLeft: "0.5vw", marginRight: "1.5vw" }}
               >
-                WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY
-              </span>
+                WE HAVE THE RESOURCES TO SUPPORT YOU IN YOUR CREATOR JOURNEY</span>
 
               <Image
                 alt="logo"

@@ -16,9 +16,9 @@ export default function StrongRelationship() {
       percentOne: "214MM+",
       percentOneName: "DELIVERED IMPRESSIONS",
       percentTwo: "53%",
-      percentTwoName: "  ENGAGEMENT  RATE",
+      percentTwoName: "   ENGAGEMENT    RATE",
       percentTree: "70%",
-      percentTreeName: "  EARNED  CONTENT",
+      percentTreeName: "    EARNED     CONTENT",
     },
     {
       id: 2,
@@ -27,11 +27,11 @@ export default function StrongRelationship() {
       name: "- SHEIN",
       img: Shein,
       percentOne: "418%",
-      percentOneName: "RETURN ON AD SPEND",
+      percentOneName: "       RETURN ON        AD SPEND",
       percentTwo: "3,040%",
       percentTwoName: "INCREASE IN YEAR-OVER-YEAR SALES",
       percentTree: "2.4M",
-      percentTreeName: "IN SALES                    ",
+      percentTreeName: "IN SALES                        ",
     },
     {
       id: 3,
@@ -52,12 +52,12 @@ export default function StrongRelationship() {
         "Generate brand love, cultivate community, and build advocacy for your products",
       name: "- OPEN FARM",
       img: openFarm,
-      percentOne: "35",
-      percentOneName: "IMPRESSIONS",
-      percentTwo: "35",
-      percentTwoName: "IMPRESSIONS",
-      percentTree: "35",
-      percentTreeName: "IMPRESSIONS",
+      percentOne: "4.7MM+",
+      percentOneName: "VIEWS",
+      percentTwo: "15%",
+      percentTwoName: "ENGAGEMENT RATE",
+      percentTree: "$0.41",
+      percentTreeName: "CPM",
     },
   ];
   return (
@@ -94,7 +94,7 @@ export default function StrongRelationship() {
                     <p className="font-[700] sm:text-6xl-custom sm:mt-0  text-[#2e2e2e]">
                       {description}
                     </p>
-                    <p className="text-4xl-custom">{name}</p>
+                    {/* <p className="text-4xl-custom">{name}</p> */}
                   </div>
                   <div className="flex relative sm:w-[34.5vw] justify-center sm:mt-0">
                     <Image
@@ -107,34 +107,34 @@ export default function StrongRelationship() {
                     <div className="absolute flex w-full h-[7vw] bg-[#fe522d] bottom-0 rounded-xl items-center justify-center">
                       <div className="flex w-[90%] items-center justify-between">
                         <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
-                          <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw]  text-white">
+                          <span className="sm:text-5xl-custom sm:font-bold mb-[0.3692vw]  text-white">
                             {percentOne}
                           </span>
-                          <span className="sm:text-2xl-custom   text-white text-center">
+                          <span className="sm:text-xl-custom   text-white text-center">
                             {percentOneName}
                           </span>
                         </div>
                         <Separator
                           orientation="vertical"
-                          className="bg-white text-white h-[3.6842vw]"
+                          className="bg-white text-white h-[5.5vw]"
                         />
                         <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
-                          <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw] text-white">
+                          <span className="sm:text-5xl-custom sm:font-bold mb-[0.3692vw] text-white">
                             {percentTwo}
                           </span>
-                          <span className="sm:text-2xl-custom   text-white text-center">
+                          <span className="sm:text-xl-custom   text-white text-center">
                             {percentTwoName}
                           </span>
                         </div>
                         <Separator
                           orientation="vertical"
-                          className="bg-white text-white  h-[3.6842vw]"
+                          className="bg-white text-white  h-[5.5vw]"
                         />
                         <div className="flex flex-col items-center justify-between sm:max-w-[33%]">
-                          <span className="sm:text-6xl-custom sm:font-bold mb-[0.3692vw] text-white">
+                          <span className="sm:text-5xl-custom sm:font-bold mb-[0.3692vw] text-white">
                             {percentTree}
                           </span>
-                          <span className="sm:text-2xl-custom  text-white text-center">
+                          <span className="sm:text-xl-custom  text-white text-center">
                             {percentTreeName}
                           </span>
                         </div>

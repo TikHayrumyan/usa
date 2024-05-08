@@ -14,11 +14,11 @@ export default function MobileMenu() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon">
+        <Button variant="ghost" size="icon" className="focus-visible:outline-none focus-visible:ring-offset-0 focus-visible:ring-0 focus-visible:outline-none hover:bg-opacity-0">
           <Menu className="w-20 h-20 text-white" />
         </Button>
       </SheetTrigger>
-      <SheetContent className="bg-[#2e2e2e] bg-cover bg-no-repeat  w-[100vw]">
+      <SheetContent className="bg-[#2e2e2e] bg-cover bg-no-repeat  w-[100vw] mobMenu">
         <Link href="/">
           <Image alt="Logo" src={Logo} className="w-[35vw] h-auto" />
         </Link>
