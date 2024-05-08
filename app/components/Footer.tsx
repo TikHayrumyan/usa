@@ -136,8 +136,13 @@ export default function Footer() {
               })}
             </p>
             <p className="w-auto h-auto text-white font-normal sm:text-3xl-custom text-[2.5vw]">
-              2024 Creator Deck. All Rights Reserved. Terms and Conditions
-              Privacy Policy
+              2024 Creator Deck. All Rights Reserved.
+              <Link href="terms-and-conditions" legacyBehavior passHref>
+                <a className="hover:!text-[#fe522d]"> Terms and Conditions</a>
+              </Link>
+              <Link href="privacy-policy" legacyBehavior passHref>
+                <a className="hover:!text-[#fe522d]"> Privacy Policy</a>
+              </Link>
             </p>
           </div>
           <Image
