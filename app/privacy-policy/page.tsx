@@ -21,27 +21,27 @@ export default function ComingSoon() {
           1. Overview
         </h2>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
-          This privacy policy (the "Privacy Policy") informs you about the
+          This privacy policy (the &ldquo;Privacy Policy&ldquo;) informs you about the
           personal information collected about users of the online service
           accessible via the Website located at www.CreatorDeck.com and related
-          URLs (the "Service") and how such information may be used or disclosed
-          by CreatorDeck.com ("Creator Deck").
+          URLs (the &ldquo;Service&ldquo;) and how such information may be used or disclosed
+          by CreatorDeck.com (&ldquo;Creator Deck&ldquo;).
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
-          The term "You" (and its variants) refers to You as a user of the
-          Service and the term "Us" (and its variants) refers to Creator Deck.
+          The term &ldquo;You&ldquo; (and its variants) refers to You as a user of the
+          Service and the term &ldquo;Us&ldquo; (and its variants) refers to Creator Deck.
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
           In operating the Service We collect and may disclose information about
-          You. By accepting the Creator Deck Terms of Service (“the TOS”), into
+          You. By accepting the Creator Deck Terms of Service (&ldquo;the TOS&ldquo;), into
           which this Privacy Policy is incorporated by reference, You
           acknowledge that you have read and understand this policy, and consent
           to Our use and disclosure of Your personal information as described in
           this Privacy Policy.
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
-          If you have any questions about our policies, please contact us at:{" "}
-          <span className="font-[600]">privacy@creatordeck.com</span>
+          If you have any questions about our policies, please contact us at:
+          <span className="font-[600]"> privacy@creatordeck.com</span>
         </p>
 
         <h2 className="text-left sm:w-[50vw] w-[70vw] font-[700] sm:text-4xl-custom text-[5vw] text-white sm:ml-0 sm:mt-20 mt-10 ml-[1vw]">
@@ -52,7 +52,7 @@ export default function ComingSoon() {
           provide us with personally identifiable information. This refers to
           information about you that can be used to contact or identify you, and
           information on your use of and activities in connection with the
-          Service that may be connected with you (“Personal Information”).
+          Service that may be connected with you (&ldquo;Personal Information&ldquo;).
           Personal Information that we collect may include, but is not limited
           to, your name, phone number, birth date, credit card or other billing
           information, email address and home and business postal addresses,
@@ -70,18 +70,18 @@ export default function ComingSoon() {
           b. Automatic Data Collection. When you use the Service, our servers
           automatically record information that your browser sends whenever you
           visit a website. This information may include, but is not limited to,
-          your computer’s Internet Protocol address, operating system, browser
+          your computer&lsquo;s Internet Protocol address, operating system, browser
           type, the web page you were visiting immediately before you came to
           our Site, the search query you submitted to find our Site on a search
           engine, what features of the Service you use and how you use them. We
-          also use data collection devices such as "cookies" in certain portions
-          of the Service. "Cookies" are small files placed on Your hard drive
+          also use data collection devices such as &ldquo;cookies&ldquo; in certain portions
+          of the Service. &ldquo;Cookies&ldquo; are small files placed on Your hard drive
           that record snippets of Data and which We use to assist Us in
           providing customized services. Certain features of the Service are
-          only available with the use of a "cookie." We use this information to
+          only available with the use of a &ldquo;cookie.&ldquo; We use this information to
           determine Our visitors' needs, demographics, interests, and behavior
           to better understand and serve You and other users. Some cookies are
-          "session cookies" meaning that they are automatically deleted from
+          &ldquo;session cookies&ldquo; meaning that they are automatically deleted from
           Your hard drive at the end of a session. Other cookies are persistent,
           and remain on your hard drive after you conclude your use of the
           Service. You are always free not to accept cookies if Your browser
@@ -130,7 +130,7 @@ export default function ComingSoon() {
           troubleshoot problems and enforce the TOS. If you decide at any time
           that you no longer wish to receive communications initiated under part
           (viii) of this paragraph, please follow the unsubscribe instructions
-          provided in such communications or update your “user preferences”
+          provided in such communications or update your &ldquo;user preferences&ldquo;
           information.
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
@@ -147,8 +147,8 @@ export default function ComingSoon() {
           c. You may, of course, decline to provide certain Personal
           Information, and you may always revise or remove information you have
           provided, but then you may not be able to utilize the Site to its
-          fullest potential (See “Accessing, Reviewing, and Changing Your
-          Profile”, below).
+          fullest potential (See &ldquo;Accessing, Reviewing, and Changing Your
+          Profile&ldquo;, below).
         </p>
 
         <h2 className="text-left sm:w-[50vw] w-[70vw] font-[700] sm:text-4xl-custom text-[5vw] text-white sm:ml-0 sm:mt-20 mt-10 ml-[1vw]">
@@ -215,7 +215,7 @@ export default function ComingSoon() {
         </p>
 
         <h2 className="text-left sm:w-[50vw] w-[70vw] font-[700] sm:text-4xl-custom text-[5vw] text-white sm:ml-0 sm:mt-20 mt-10 ml-[1vw]">
-          5. Your Use of Other Members' Information
+          5. Your Use of Other Members&lsquo; Information
         </h2>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
           Our services may include access to instant messaging, forums, blogs,
@@ -273,8 +273,8 @@ export default function ComingSoon() {
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
           a. After registration You can review the information You submitted
           during registration. For instructions or help on how to change or
-          remove the information, contact{" "}
-          <span className="font-[600]">privacy@creatordeck.com</span>. If you
+          remove the information, contact
+          <span className="font-[600]"> privacy@creatordeck.com</span>. If you
           provide less Personal Information, or provide inaccurate Personal
           Information in order to protect your anonymity, you may not be able to
           utilize the Service to its full potential. If you completely remove
@@ -320,7 +320,7 @@ export default function ComingSoon() {
         </p>
 
         <h2 className="text-left sm:w-[50vw] w-[70vw] font-[700] sm:text-4xl-custom text-[5vw] text-white sm:ml-0 sm:mt-20 mt-10 ml-[1vw]">
-          10. Our Commitment to Children’s Privacy
+          10. Our Commitment to Children&lsquo;s Privacy
         </h2>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
           a. We are particularly concerned with safeguarding the privacy of
@@ -337,15 +337,15 @@ export default function ComingSoon() {
           ANY MANNER.
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
-          b. As part of our commitment to Children’s privacy, We refer the
+          b. As part of our commitment to Children&lsquo;s privacy, We refer the
           following resources that parents and legal guardians may find useful
-          in monitoring and limiting children’s access to certain types of
+          in monitoring and limiting children&lsquo;s access to certain types of
           material on the Internet. While We do not endorse these products and
           services, We provide information about them as a public service to our
           community.
         </p>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
-          i. “OnGuard Online,” maintained by the Federal Trade Commission.
+          i. &ldquo;OnGuard Online,&ldquo; maintained by the Federal Trade Commission.
           http://onguardonline.gov/socialnetworking.html <br></br>
           ii. WiredSafety http://www.wiredsafety.org <br></br>
           iii. NetSmartz http://www.netsmartz.org <br></br>
