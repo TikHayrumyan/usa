@@ -79,7 +79,7 @@ export default function ComingSoon() {
           that record snippets of Data and which We use to assist Us in
           providing customized services. Certain features of the Service are
           only available with the use of a &ldquo;cookie.&ldquo; We use this information to
-          determine Our visitors' needs, demographics, interests, and behavior
+          determine Our visitors&lsquo; needs, demographics, interests, and behavior
           to better understand and serve You and other users. Some cookies are
           &ldquo;session cookies&ldquo; meaning that they are automatically deleted from
           Your hard drive at the end of a session. Other cookies are persistent,
@@ -219,7 +219,7 @@ export default function ComingSoon() {
         </h2>
         <p className="text-left sm:w-[50vw] w-[70vw] sm:text-[1.2vw] sm:leading-[1.7vw] text-xs relative text-white sm:mt-5 mt-3">
           Our services may include access to instant messaging, forums, blogs,
-          and chat rooms. As a member You have access to other members' Personal
+          and chat rooms. As a member You have access to other members&lsquo; Personal
           Information through Your use of the Service. You may not use such
           information in any manner that is not authorized by Us and the
           applicable member. In all cases, You must give members an opportunity
@@ -229,7 +229,7 @@ export default function ComingSoon() {
           without Our consent and the consent of such other member. You may not
           contact a member or add a member to any contact list (electronic,
           telephone, physical mail, or any other form of contact) without that
-          member's express consent.
+          member&lsquo;s express consent.
         </p>
 
         <h2 className="text-left sm:w-[50vw] w-[70vw] font-[700] sm:text-4xl-custom text-[5vw] text-white sm:ml-0 sm:mt-20 mt-10 ml-[1vw]">
