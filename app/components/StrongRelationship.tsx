@@ -94,7 +94,6 @@ export default function StrongRelationship() {
                     <p className="font-[700] sm:text-6xl-custom sm:mt-0  text-[#2e2e2e]">
                       {description}
                     </p>
-                    {/* <p className="text-4xl-custom">{name}</p> */}
                   </div>
                   <div className="flex relative sm:w-[34.5vw] justify-center sm:mt-0">
                     <Image

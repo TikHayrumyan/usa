@@ -1,7 +1,6 @@
 import Image from "next/image";
 import LogoSlider from "./components/LogoSlider";
 import Link from "next/link";
-// import White_CD_HalftoneBackground from "../public/patterns/backgroundPattern.png";
 import White_CD_HalftoneBackground from "../public/patterns/CD_HalftoneBackgroundWebsite_White.svg";
 
 import AgencyEngineers from "./components/AgencyEngineers";
@@ -12,8 +11,8 @@ import OurServices from "./components/OurServices";
 import StrongRelationship from "./components/StrongRelationship";
 import GetInTouch from "./components/GetInTouch";
 import FooterSlider from "./components/FooterSlider";
-import MainImg from "../public/imgs/Main.jpg";
 import StrongRelationshipMobile from "./components/StrongRelationshipMobile";
+
 export default function Home() {
   return (
     <main className="flex flex-col bg-[#F3F3F3]">
@@ -22,13 +21,6 @@ export default function Home() {
           <source src="../videos/Mainvideo.mp4" />
           {/* <source src="https://lexoqhgjbjwduzwqdmao.supabase.co/storage/v1/object/sign/src/DB%20Backup/Creatordeck.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzcmMvREIgQmFja3VwL0NyZWF0b3JkZWNrLm1wNCIsImlhdCI6MTcxNTEwODE3NSwiZXhwIjoyMDMwNDY4MTc1fQ.8W84pH6mu_p2LQqv2Z3QyaKYYaSTgSubElo8K1UTajQ&t=2024-05-07T18%3A56%3A16.459Z" /> */}
         </video>
-        {/* <Image
-          alt="Main Image"
-          src={MainImg}
-          width={1000}
-          height={1000}
-          className="object-cover sm:h-full  w-full"
-        /> */}
       </div>
       {/* section 2 */}
       <div className="w-full overflow-x-hidden h-auto flex flex-col bg-[#2e2e2e] relative border-b-8 border-b-black ">
@@ -85,7 +77,7 @@ export default function Home() {
           an influencer+ marketing agency
         </h1>
         <div className="flex sm:flex-row flex-col w-full items-start justify-between sm:h-[90vh]">
-          <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center justify-between sm:leading-[2.2143vw] text-[#2e2e2e]">
+          <div className="flex flex-col h-full sm:w-[60%] sm:space-y-0 space-y-4 w-full sm:text-left text-center items-center justify-between sm:leading-[2.2143vw] text-[#2e2e2e]">
             <p className="w-[90%] font-normal sm:text-[1.844vw] not-italic text-[0.95rem] h-auto">
               Reintroducing Creator Deck, an Influencer+ marketing agency. With
               10+ years of best-in-class expertise, we engineer influence for

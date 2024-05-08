@@ -23,7 +23,6 @@ export default function FooterSlider() {
         <Marquee speed={100} delay={0} className="marquee">
           <div
             className="overflow-hidden mr-52"
-            // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center marqueeDiv">
               <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
@@ -47,7 +46,6 @@ export default function FooterSlider() {
           </div>
           <div
             className="overflow-hidden marqueeDiv"
-            // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center ">
               <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
@@ -71,7 +69,6 @@ export default function FooterSlider() {
           </div>
           <div
             className="overflow-hidden "
-            // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center marqueeDiv">
               <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">
@@ -95,7 +92,6 @@ export default function FooterSlider() {
           </div>
           <div
             className="overflow-hidden marqueeDiv"
-            // style={{ width: "1100px!important" }}
           >
             <div className="flex items-center ">
               <span className=" text-lg sm:text-4xl-custom font-bold text-[#fe522d]">

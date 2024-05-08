@@ -55,12 +55,10 @@ export default function LogoSlider({ num }) {
       },
       breakpoints: {
         1024: {
-          // perView: 6,
           gap: 10,
         },
         640: {
           perView: 5,
-          // gap: 50,
         },
       },
     }).mount();

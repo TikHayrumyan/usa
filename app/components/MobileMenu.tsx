@@ -37,9 +37,11 @@ export default function MobileMenu() {
           className="absolute top-0 left-0 bottom-0 object-cover opacity-10 h-full w-full z-0"
         />
         <div className="mt-[21vw] flex px-2 space-y-1 flex-col">
+          
           {Navlinks.map((item, index) => {
             return (
               <>
+              <SheetTrigger asChild>
                 <Link
                   key={index}
                   href={item.href}
@@ -47,6 +49,7 @@ export default function MobileMenu() {
                 >
                   {item.name}
                 </Link>
+                </SheetTrigger>
               </>
             );
           })}

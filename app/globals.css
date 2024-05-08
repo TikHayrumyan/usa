@@ -189,18 +189,6 @@
   margin-right: -66vw;
 }
 
-
-  /* .logos img {
-    max-height: 70px;
-    max-width: 190px !important;
-    height: auto;
-    width: auto;
-    object-fit: cover;
-  } */
-
-  /* .logosUl{
-    height: 10vw;
-  } */
   .spanMobile {
     margin-right: 5.5vw !important;
     text-wrap: nowrap;
@@ -212,15 +200,8 @@
 
   }
 
-  .li {
-    /* width: auto !important; */
-    /* padding-right: 10px;
-    margin-top: 30px; */
-  }
-
   .marqueeDiv {
     margin-right: 1vw;
-    /* margin-left: 2vw; */
   }
 
   .marquee {
@@ -263,7 +244,6 @@
 
 .marqueeDiv {
   margin-right: 1.5vw;
-  /* margin-left: 2vw; */
 }
 
 .marquee {

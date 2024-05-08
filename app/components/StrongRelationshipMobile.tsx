@@ -2,8 +2,6 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Lusa from "../../public/imgs/MAYBELLINE_LUSA_HOMEPAGE.gif";
 import Shein from "../../public/imgs/SHEIN_HOMEPAGE.gif";
-import openFarm from "../../public/imgs/OPENFARM_HOMEPAGE.gif";
-import REDKEN from "../../public/imgs/REDKEN_HOMEPAGE.gif";
 import { Separator } from "@/components/ui/separator";
 export default function StrongRelationshipMobile() {
   const data = [
@@ -73,7 +71,6 @@ export default function StrongRelationshipMobile() {
                     <p className="font-[700] w-auto sm:text-6xl-custom sm:mt-0 mt-16 text-[#2e2e2e] ">
                       {description}
                     </p>
-                    {/* <p className="text-xl w-auto">{name}</p> */}
                   </div>
                   <div
                     className={cn(
@@ -110,18 +107,6 @@ export default function StrongRelationshipMobile() {
                             {percentTwoName}
                           </span>
                         </div>
-                        {/* <Separator
-                          orientation="vertical"
-                          className="bg-white text-white  h-20"
-                        />
-                        <div className="flex flex-col items-center justify-between">
-                          <span className="sm:text-6xl-custom sm:font-bold mb-2 text-white">
-                            {percentTree}
-                          </span>
-                          <span className="sm:text-3xl-custom  text-sm text-white">
-                            {percentTreeName}
-                          </span>
-                        </div> */}
                       </div>
                     </div>
                   </div>
