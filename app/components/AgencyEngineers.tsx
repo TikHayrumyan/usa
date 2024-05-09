@@ -92,18 +92,20 @@ export default function AgencyEngineers() {
       </div>
       {/* mobile */}
       <div className="sm:hidden flex flex-col items-center mt-5">
-        <h2 className="relative z-20 font-bold text-7xl w-full italic text-center text-[#fe522d]">
+        {/* <h2 className="relative z-20 font-bold text-[14vw] w-full italic text-center text-[#fe522d]">
           AN AGENCY
-        </h2>
-        <Image
+        </h2> */}
+        {/* <Image
           alt="img"
           src={LAROLLETTES_HOMPAGE}
           width={200}
           height={200}
           className="flex w-[92%] h-80 mt-3 z-20 object-cover"
-        />
-        <h2 className="relative z-20 font-bold text-[14vw] text-nowrap leading-[1] w-full text-center text-[#fe522d] mt-3">
-          THAT ENGINEERS
+        /> */}
+        <h2 className="relative z-20 font-bold text-[14vw] text-nowrap leading-[1] w-full text-center text-[#fe522d]">
+        <span className="italic">AN AGENCY</span>
+        <br />
+        THAT ENGINEERS
           <br />
           <span className="italic">INFLUENCE</span>
         </h2>
